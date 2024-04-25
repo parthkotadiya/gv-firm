@@ -1,0 +1,1025 @@
+.teamMember {
+  padding: 0 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.teamMember a {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.teamMember h3 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.teamMember form {
+  position: relative;
+}
+
+.teamMember .btn {
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 25px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  padding: 11px 60px;
+  margin-left: 20px;
+}
+
+.searchInput {
+  border-radius: 25px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  padding: 11px 140px 11px 20px;
+  margin-left: 20px;
+}
+
+.searchBtn {
+  color: #fff !important;
+  font-size: 16px !important;
+  font-weight: 400;
+  border-radius: 0px 25px 25px 0px;
+  background: #000;
+  position: absolute;
+  padding: 11px 30px !important;
+  top: -12px;
+  right: 0;
+  cursor: pointer;
+}
+
+.teamDetails span {
+  cursor: pointer;
+}
+
+.innerTeam {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  margin-top: 32px;
+}
+
+.detailsName,
+.detailsName2,
+.detailsemail,
+.detailsemail2,
+.detailsNumber,
+.detailsNumber2,
+.detailsDesignation,
+.detailsDesignation2,
+.detailsAction,
+.detailsAction2,
+.paraDetailsDesignation,
+.paraDetailsDesignation2,
+.id,
+.paraId,
+.id2,
+.paraId2,
+.paraDetails,
+.paraDetails2,
+.paraDetailsName,
+.paraDetailsName2,
+.paraDetailsemail,
+.paraDetailsemail2,
+.paraDetailsMobile,
+.paraDetailsMobile2,
+.paraDetailsAction,
+.paraDetailsAction,
+.IconDeatails,
+.IconDeatails2 {
+  padding: 11px 6px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.id,
+.id2,
+.paraId,
+.paraId2 {
+  width: 34px;
+  margin-left: 0;
+}
+
+.detailsName,
+.paraDetailsName {
+  width: 350px;
+}
+
+.detailsemail,
+.paraDetailsemail {
+  width: 415px;
+}
+
+.detailsNumber,
+.paraDetailsMobile {
+  width: 180px;
+}
+
+.detailsDesignation,
+.paraDetailsDesignation {
+  width: 235px;
+}
+
+.detailsAction,
+.IconDeatails {
+  width: 200px;
+}
+
+.detailsName2,
+.paraDetailsName2 {
+  width: 400px;
+}
+
+.detailsemail2,
+.paraDetailsemail2 {
+  width: 450px;
+}
+
+.detailsNumber2,
+.paraDetailsMobile2 {
+  width: 200px;
+}
+
+.detailsDesignation2,
+.paraDetailsDesignation2 {
+  width: 250px;
+}
+
+.detailsAction2,
+.IconDeatails2 {
+  width: 242px;
+}
+
+.teamhead,
+.teamDetails {
+  padding: 24px 18px;
+  display: flex;
+  align-items: center;
+}
+
+.teamMember h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.textDetails {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.addNew {
+  padding-top: 90px;
+  position: relative;
+}
+
+.memberDetails {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  margin-top: 32px;
+}
+
+.addBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.addBtn button,
+.addBtn a {
+  border-radius: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  font-size: 20px;
+  font-weight: 400;
+  padding: 11px 54px;
+}
+
+.addmore {
+  border-radius: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  padding: 10px 30px;
+  margin-top: 50px;
+  float: right;
+}
+
+/*teammember form  */
+.modalContent {
+  width: 600px;
+  border: none;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modal {
+  /* position: fixed; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 105vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.displayBlock {
+  display: block;
+}
+
+.displayNone {
+  display: none;
+}
+
+.modalContent h3 {
+  font-size: 30px;
+}
+
+.teamForm {
+  display: flex;
+  justify-content: center;
+}
+
+.teamForm label {
+  margin: 10px 0;
+}
+
+.teamForm input {
+  display: block;
+  width: 450px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+}
+
+.teamForm .btn {
+  margin: 80px auto 0;
+  width: 181px;
+}
+
+.teamForm .errormsg {
+  font-size: 16px;
+  color: red;
+  margin: 10px;
+}
+
+@media (max-width: 2560px) {
+
+  .teamMember h5 {
+    font-size: 22px;
+  }
+
+  .teamDetails p {
+    font-size: 20px;
+  }
+
+  .id,
+  .id2,
+  .paraId,
+  .paraId2 {
+    width: 50px;
+  }
+
+  .detailsName,
+  .paraDetailsName {
+    width: 510px;
+  }
+
+  .detailsemail,
+  .paraDetailsemail {
+    width: 500px;
+  }
+
+  .detailsNumber,
+  .paraDetailsMobile {
+    width: 300px;
+  }
+
+  .detailsDesignation,
+  .paraDetailsDesignation {
+    width: 300px;
+  }
+
+  .detailsAction,
+  .IconDeatails {
+    width: 300px;
+  }
+
+  .detailsName2,
+  .paraDetailsName2 {
+    width: 600px;
+  }
+
+  .detailsemail2,
+  .paraDetailsemail2 {
+    width: 600px;
+  }
+
+  .detailsNumber2,
+  .paraDetailsMobile2 {
+    width: 310px;
+  }
+
+  .detailsDesignation2,
+  .paraDetailsDesignation2 {
+    width: 305px;
+  }
+
+  .detailsAction2,
+  .IconDeatails2 {
+    width: 305px;
+  }
+
+  .teamhead,
+  .teamDetails {
+    justify-content: center;
+  }
+
+  .IconDeatails span svg,
+  .IconDeatails2 span svg {
+    width: 30px;
+    height: 25px;
+  }
+}
+
+@media (min-width: 1900px) and (max-width: 2559px) {
+  .teamMember h5 {
+    font-size: 21px;
+  }
+
+  .teamDetails p {
+    font-size: 19px;
+  }
+
+}
+
+@media (min-width: 1700px) and (max-width: 1899px) {
+  .teamMember h5 {
+    font-size: 21px;
+  }
+
+  .teamDetails p {
+    font-size: 19px;
+  }
+
+  .id,
+  .id2,
+  .paraId,
+  .paraId2 {
+    width: 50px;
+  }
+
+  .detailsName,
+  .paraDetailsName {
+    width: 510px;
+  }
+
+  .detailsemail,
+  .paraDetailsemail {
+    width: 500px;
+  }
+
+  .detailsNumber,
+  .paraDetailsMobile {
+    width: 280px;
+  }
+
+  .detailsDesignation,
+  .paraDetailsDesignation {
+    width: 340px;
+  }
+
+  .detailsAction,
+  .IconDeatails {
+    width: 280px;
+  }
+
+  .detailsName2,
+  .paraDetailsName2 {
+    width: 600px;
+  }
+
+  .detailsemail2,
+  .paraDetailsemail2 {
+    width: 600px;
+  }
+
+  .detailsNumber2,
+  .paraDetailsMobile2 {
+    width: 300px;
+  }
+
+  .detailsDesignation2,
+  .paraDetailsDesignation2 {
+    width: 320px;
+  }
+
+  .detailsAction2,
+  .IconDeatails2 {
+    width: 300px;
+  }
+
+  .IconDeatails span svg,
+  .IconDeatails2 span svg {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1699px) {
+  .teamMember h5 {
+    font-size: 18px;
+  }
+
+  .teamDetails p {
+    font-size: 16px;
+  }
+
+  .id,
+  .id2,
+  .paraId,
+  .paraId2 {
+    width: 60px;
+  }
+
+  .detailsName,
+  .paraDetailsName {
+    width: 510px;
+  }
+
+  .detailsemail,
+  .paraDetailsemail {
+    width: 500px;
+  }
+
+  .detailsNumber,
+  .paraDetailsMobile {
+    width: 280px;
+  }
+
+  .detailsDesignation,
+  .paraDetailsDesignation {
+    width: 400px;
+  }
+
+  .detailsAction,
+  .IconDeatails {
+    width: 300px;
+  }
+
+  .detailsName2,
+  .paraDetailsName2 {
+    width: 600px;
+  }
+
+  .detailsemail2,
+  .paraDetailsemail2 {
+    width: 600px;
+  }
+
+  .detailsNumber2,
+  .paraDetailsMobile2 {
+    width: 290px;
+  }
+
+  .detailsDesignation2,
+  .paraDetailsDesignation2 {
+    width: 350px;
+  }
+
+  .detailsAction2,
+  .IconDeatails2 {
+    width: 300px;
+  }
+
+  .IconDeatails span svg,
+  .IconDeatails2 span svg {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media (min-width: 1299px) and (max-width: 1399px) {
+  .teamMember h5 {
+    font-size: 17px;
+  }
+
+  .teamDetails p {
+    font-size: 16px;
+  }
+
+  .id,
+  .id2,
+  .paraId,
+  .paraId2 {
+    width: 60px;
+  }
+
+  .detailsName,
+  .paraDetailsName {
+    width: 490px;
+  }
+
+  .detailsemail,
+  .paraDetailsemail {
+    width: 500px;
+  }
+
+  .detailsNumber,
+  .paraDetailsMobile {
+    width: 290px;
+  }
+
+  .detailsDesignation,
+  .paraDetailsDesignation {
+    width: 400px;
+  }
+
+  .detailsAction,
+  .IconDeatails {
+    width: 300px;
+  }
+
+  .detailsName2,
+  .paraDetailsName2 {
+    width: 550px;
+  }
+
+  .detailsemail2,
+  .paraDetailsemail2 {
+    width: 550px;
+  }
+
+  .detailsNumber2,
+  .paraDetailsMobile2 {
+    width: 290px;
+  }
+
+  .detailsDesignation2,
+  .paraDetailsDesignation2 {
+    width: 400px;
+  }
+
+  .detailsAction2,
+  .IconDeatails2 {
+    width: 320px;
+  }
+
+  .IconDeatails span svg,
+  .IconDeatails2 span svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (min-width: 1199px) and (max-width: 1298px) {
+  .teamMember h3 {
+    font-size: 30px;
+  }
+
+  .teamMember h5 {
+    font-size: 16px;
+  }
+
+  .teamDetails p {
+    font-size: 14px;
+  }
+
+  .id,
+  .id2,
+  .paraId,
+  .paraId2 {
+    width: 60px;
+  }
+
+  .detailsName,
+  .paraDetailsName {
+    width: 490px;
+  }
+
+  .detailsemail,
+  .paraDetailsemail {
+    width: 500px;
+  }
+
+  .detailsNumber,
+  .paraDetailsMobile {
+    width: 290px;
+  }
+
+  .detailsDesignation,
+  .paraDetailsDesignation {
+    width: 400px;
+  }
+
+  .detailsAction,
+  .IconDeatails {
+    width: 312px;
+  }
+
+  .detailsName2,
+  .paraDetailsName2 {
+    width: 550px;
+  }
+
+  .detailsemail2,
+  .paraDetailsemail2 {
+    width: 550px;
+  }
+
+  .detailsNumber2,
+  .paraDetailsMobile2 {
+    width: 290px;
+  }
+
+  .detailsDesignation2,
+  .paraDetailsDesignation2 {
+    width: 400px;
+  }
+
+  .detailsAction2,
+  .IconDeatails2 {
+    width: 340px;
+  }
+
+  .IconDeatails span svg,
+  .IconDeatails2 span svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (min-width: 1048px) and (max-width: 1198px) {
+  .teamMember h3 {
+    font-size: 29px;
+  }
+
+  .searchInput {
+    padding: 11px 100px 11px 20px;
+  }
+
+  .teamMember .btn {
+    padding: 11px 30px;
+  }
+
+  .teamMember h5 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .teamDetails p {
+    font-size: 13px;
+  }
+
+  .id,
+  .id2,
+  .paraId,
+  .paraId2 {
+    width: 60px;
+  }
+
+  .detailsName,
+  .paraDetailsName {
+    width: 485px;
+  }
+
+  .detailsemail,
+  .paraDetailsemail {
+    width: 500px;
+  }
+
+  .detailsNumber,
+  .paraDetailsMobile {
+    width: 290px;
+  }
+
+  .detailsDesignation,
+  .paraDetailsDesignation {
+    width: 400px;
+  }
+
+  .detailsAction,
+  .IconDeatails {
+    width: 320px;
+  }
+
+  .detailsName2,
+  .paraDetailsName2 {
+    width: 500px;
+  }
+
+  .detailsemail2,
+  .paraDetailsemail2 {
+    width: 550px;
+  }
+
+  .detailsNumber2,
+  .paraDetailsMobile2 {
+    width: 285px;
+  }
+
+  .detailsDesignation2,
+  .paraDetailsDesignation2 {
+    width: 400px;
+  }
+
+  .detailsAction2,
+  .IconDeatails2 {
+    width: 395px;
+  }
+
+  .IconDeatails span svg,
+  .IconDeatails2 span svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1047px) {
+  .teamMember h3 {
+    font-size: 25px;
+  }
+
+  .searchInput {
+    padding: 11px 90px 11px 20px;
+  }
+
+  .teamMember .btn {
+    padding: 11px 30px;
+  }
+
+  .teamMember h5 {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .teamDetails p {
+    font-size: 12px;
+  }
+
+  .id,
+  .id2,
+  .paraId,
+  .paraId2 {
+    width: 60px;
+  }
+
+  .detailsName,
+  .paraDetailsName {
+    width: 485px;
+  }
+
+  .detailsemail,
+  .paraDetailsemail {
+    width: 500px;
+  }
+
+  .detailsNumber,
+  .paraDetailsMobile {
+    width: 290px;
+  }
+
+  .detailsDesignation,
+  .paraDetailsDesignation {
+    width: 400px;
+  }
+
+  .detailsAction,
+  .IconDeatails {
+    width: 320px;
+  }
+
+  .detailsName2,
+  .paraDetailsName2 {
+    width: 500px;
+  }
+
+  .detailsemail2,
+  .paraDetailsemail2 {
+    width: 550px;
+  }
+
+  .detailsNumber2,
+  .paraDetailsMobile2 {
+    width: 285px;
+  }
+
+  .detailsDesignation2,
+  .paraDetailsDesignation2 {
+    width: 400px;
+  }
+
+  .detailsAction2,
+  .IconDeatails2 {
+    width: 395px;
+  }
+
+  .IconDeatails span svg,
+  .IconDeatails2 span svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 990px) {
+  .teamMember h3 {
+    font-size: 25px;
+  }
+
+  .searchInput {
+    padding: 11px 65px 11px 20px;
+  }
+
+  .teamMember .btn {
+    padding: 11px 20px;
+    font-size: 18px;
+  }
+
+  .teamMember h5 {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .teamDetails p {
+    font-size: 12px;
+  }
+
+  .id,
+  .id2,
+  .paraId,
+  .paraId2 {
+    width: 60px;
+  }
+
+  .detailsName,
+  .paraDetailsName {
+    width: 400px;
+  }
+
+  .detailsemail,
+  .paraDetailsemail {
+    width: 400px;
+  }
+
+  .detailsNumber,
+  .paraDetailsMobile {
+    width: 290px;
+  }
+
+  .detailsDesignation,
+  .paraDetailsDesignation {
+    width: 400px;
+  }
+
+  .detailsAction,
+  .IconDeatails {
+    width: 320px;
+  }
+
+  .detailsName2,
+  .paraDetailsName2 {
+    width: 500px;
+  }
+
+  .detailsemail2,
+  .paraDetailsemail2 {
+    width: 550px;
+  }
+
+  .detailsNumber2,
+  .paraDetailsMobile2 {
+    width: 285px;
+  }
+
+  .detailsDesignation2,
+  .paraDetailsDesignation2 {
+    width: 400px;
+  }
+
+  .detailsAction2,
+  .IconDeatails2 {
+    width: 395px;
+
+  }
+
+  .IconDeatails span svg,
+  .IconDeatails2 span svg {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 899px) {
+  .modal {
+    height: 220vh;
+  }
+
+  .teamMember h3 {
+    font-size: 22px;
+  }
+
+  .searchInput {
+    padding: 11px 50px 11px 20px;
+  }
+
+  .teamMember .btn {
+    padding: 11px 15px;
+    font-size: 18px;
+  }
+
+  .teamMember h5 {
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  .teamDetails p {
+    font-size: 12px;
+  }
+
+  .id,
+  .id2,
+  .paraId,
+  .paraId2 {
+    width: 70px;
+  }
+
+  .detailsName,
+  .paraDetailsName {
+    width: 400px;
+  }
+
+  .detailsemail,
+  .paraDetailsemail {
+    width: 400px;
+  }
+
+  .detailsNumber,
+  .paraDetailsMobile {
+    width: 290px;
+  }
+
+  .detailsDesignation,
+  .paraDetailsDesignation {
+    width: 450px;
+  }
+
+  .detailsAction,
+  .IconDeatails {
+    width: 320px;
+  }
+
+  .detailsName2,
+  .paraDetailsName2 {
+    width: 500px;
+  }
+
+  .detailsemail2,
+  .paraDetailsemail2 {
+    width: 540px;
+  }
+
+  .detailsNumber2,
+  .paraDetailsMobile2 {
+    width: 283px;
+  }
+
+  .detailsDesignation2,
+  .paraDetailsDesignation2 {
+    width: 450px;
+  }
+
+  .detailsAction2,
+  .IconDeatails2 {
+    width: 438px;
+  }
+
+  .IconDeatails span svg,
+  .IconDeatails2 span svg {
+    width: 15px;
+    height: 15px;
+  }
+}

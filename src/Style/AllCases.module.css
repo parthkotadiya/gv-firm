@@ -1,0 +1,1139 @@
+.CasesPage {
+    padding: 21px;
+}
+
+.CasesPage .box {
+    border: 1px solid #d4d4d4;
+    border-radius: 20px;
+    height: 74px;
+    width: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CasesPage .box2 {
+    border: 1px solid #d4d4d4;
+    border-radius: 20px;
+    height: 74px;
+    width: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CasesPage .court {
+    width: 257px;
+}
+
+.CasesPage .court2 {
+    width: 265px;
+}
+
+.CasesPage .name {
+    width: 260px;
+}
+
+.CasesPage .name2 {
+    width: 290px;
+}
+
+.CasesPage .date {
+    width: 201px;
+}
+
+.CasesPage .date2 {
+    width: 230px;
+}
+
+.CasesPage .box .rectangle {
+    margin: 0px !important;
+    color: #212121;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.CasesPage .box2 .rectangle {
+    margin: 0px !important;
+    color: #212121;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.CasesPage .Running .box {
+    background-color: #D0EBFF;
+}
+
+.CasesPage .Running .box2 {
+    background-color: #D0EBFF;
+}
+
+.CasesPage .Closed .box {
+    background-color: #FFD6D6;
+}
+
+.CasesPage .Closed .box2 {
+    background-color: #FFD6D6;
+}
+
+
+@media (min-width : 1850px) and (max-width : 1900px) {
+    .CasesPage {
+        padding: 21px;
+    }
+
+    .CasesPage .box {
+        width: 145px;
+    }
+
+    .CasesPage .court {
+        width: 255px;
+    }
+
+    .CasesPage .name {
+        width: 255px;
+    }
+
+    .CasesPage .date {
+        width: 196px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 159px;
+    }
+
+    .CasesPage .court2 {
+        width: 259px;
+    }
+
+    .CasesPage .name2 {
+        width: 283px;
+    }
+
+    .CasesPage .date2 {
+        width: 223px;
+    }
+}
+
+@media (min-width : 1800px) and (max-width : 1849px) {
+    .CasesPage {
+        padding: 20px;
+    }
+
+    .CasesPage .box {
+        width: 138px;
+    }
+
+    .CasesPage .court {
+        width: 248px;
+    }
+
+    .CasesPage .name {
+        width: 248px;
+    }
+
+    .CasesPage .date {
+        width: 191px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 159px;
+    }
+
+    .CasesPage .court2 {
+        width: 253px;
+    }
+
+    .CasesPage .name2 {
+        width: 277px;
+    }
+
+    .CasesPage .date2 {
+        width: 213px;
+    }
+
+    .CasesPage .box .rectangle,
+    .CasesPage .box2 .rectangle {
+        font-size: 24px;
+    }
+
+    .CasesPage .box .case {
+        font-size: 24px;
+    }
+}
+
+@media (min-width : 1750px) and (max-width : 1799px) {
+    .CasesPage {
+        padding: 18px;
+    }
+
+    .CasesPage .box {
+        width: 131px;
+    }
+
+    .CasesPage .court {
+        width: 241px;
+    }
+
+    .CasesPage .name {
+        width: 241px;
+    }
+
+    .CasesPage .date {
+        width: 186px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 153px;
+    }
+
+    .CasesPage .court2 {
+        width: 247px;
+    }
+
+    .CasesPage .name2 {
+        width: 271px;
+    }
+
+    .CasesPage .date2 {
+        width: 207px;
+    }
+
+    .CasesPage .box .rectangle,
+    .CasesPage .box2 .rectangle {
+        font-size: 22px;
+    }
+
+    .CasesPage .box .case {
+        font-size: 22px;
+    }
+}
+
+@media (min-width : 1700px) and (max-width : 1749px) {
+    .CasesPage {
+        padding: 18px;
+    }
+
+    .CasesPage .box {
+        width: 132px;
+    }
+
+    .CasesPage .court {
+        width: 230px;
+    }
+
+    .CasesPage .name {
+        width: 235px;
+    }
+
+    .CasesPage .date {
+        width: 182px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 148px;
+    }
+
+    .CasesPage .court2 {
+        width: 243px;
+    }
+
+    .CasesPage .name2 {
+        width: 266px;
+    }
+
+    .CasesPage .date2 {
+        width: 200px;
+    }
+
+    .CasesPage .box .rectangle,
+    .CasesPage .box2 .rectangle {
+        font-size: 22px;
+    }
+
+    .CasesPage .box .case {
+        font-size: 20px;
+    }
+}
+
+@media (min-width : 1650px) and (max-width : 1699px) {
+    .CasesPage {
+        padding: 18px;
+    }
+
+    .CasesPage .box {
+        width: 126px;
+    }
+
+    .CasesPage .court {
+        width: 224px;
+    }
+
+    .CasesPage .name {
+        width: 229px;
+    }
+
+    .CasesPage .date {
+        width: 176px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 143px;
+    }
+
+    .CasesPage .court2 {
+        width: 236px;
+    }
+
+    .CasesPage .name2 {
+        width: 259px;
+    }
+
+    .CasesPage .date2 {
+        width: 191px;
+    }
+
+    .CasesPage .box .rectangle,
+    .CasesPage .box2 .rectangle {
+        font-size: 22px;
+    }
+
+    .CasesPage .box .case {
+        font-size: 20
+    }
+}
+
+@media (min-width : 1600px) and (max-width : 1649px) {
+    .CasesPage {
+        padding: 18px;
+    }
+
+    .CasesPage .box {
+        width: 120px;
+    }
+
+    .CasesPage .court {
+        width: 218px;
+    }
+
+    .CasesPage .name {
+        width: 223px;
+    }
+
+    .CasesPage .date {
+        width: 170px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 138px;
+    }
+
+    .CasesPage .court2 {
+        width: 231px;
+    }
+
+    .CasesPage .name2 {
+        width: 254px;
+    }
+
+    .CasesPage .date2 {
+        width: 184px;
+    }
+
+    .CasesPage .box .rectangle,
+    .CasesPage .box2 .rectangle {
+        font-size: 22px;
+    }
+
+    .CasesPage .box .case {
+        font-size: 20px;
+    }
+}
+
+@media (min-width : 1550px) and (max-width : 1599px) {
+    .CasesPage {
+        padding: 18px;
+    }
+
+    .CasesPage .box {
+        width: 114px;
+    }
+
+    .CasesPage .court {
+        width: 212px;
+    }
+
+    .CasesPage .name {
+        width: 217px;
+    }
+
+    .CasesPage .date {
+        width: 164px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 129px;
+    }
+
+    .CasesPage .court2 {
+        width: 224px;
+    }
+
+    .CasesPage .name2 {
+        width: 254px;
+    }
+
+    .CasesPage .date2 {
+        width: 174px;
+    }
+
+    .CasesPage .box .rectangle,
+    .CasesPage .box2 .rectangle {
+        font-size: 22px;
+    }
+
+    .CasesPage .box .case {
+        font-size: 19px;
+    }
+}
+
+@media (min-width : 1500px) and (max-width : 1549px) {
+    .CasesPage {
+        padding: 18px;
+    }
+
+    .CasesPage .box {
+        width: 108px;
+    }
+
+    .CasesPage .court {
+        width: 206px;
+    }
+
+    .CasesPage .name {
+        width: 211px;
+    }
+
+    .CasesPage .date {
+        width: 158px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 122px;
+    }
+
+    .CasesPage .court2 {
+        width: 217px;
+    }
+
+    .CasesPage .name2 {
+        width: 247px;
+    }
+
+    .CasesPage .date2 {
+        width: 167px;
+    }
+
+    .CasesPage .box .rectangle,
+    .CasesPage .box2 .rectangle {
+        font-size: 20px;
+    }
+
+    .CasesPage .box .case {
+        font-size: 19px;
+    }
+}
+
+@media (min-width : 1450px) and (max-width : 1499px) {
+    .CasesPage {
+        padding: 18px;
+    }
+
+    .CasesPage .box {
+        width: 102px;
+    }
+
+    .CasesPage .court {
+        width: 200px;
+    }
+
+    .CasesPage .name {
+        width: 205px;
+    }
+
+    .CasesPage .date {
+        width: 152px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 115px;
+    }
+
+    .CasesPage .court2 {
+        width: 210px;
+    }
+
+    .CasesPage .name2 {
+        width: 240px;
+    }
+
+    .CasesPage .date2 {
+        width: 164px;
+    }
+
+    .CasesPage .box .rectangle,
+    .CasesPage .box2 .rectangle {
+        font-size: 20px;
+    }
+
+    .CasesPage .box .case {
+        font-size: 18.5px;
+    }
+}
+
+@media (min-width : 1400px) and (max-width : 1449px) {
+    .CasesPage {
+        padding: 17px;
+    }
+
+    .CasesPage .box {
+        width: 97px;
+    }
+
+    .CasesPage .court {
+        width: 195px;
+    }
+
+    .CasesPage .name {
+        width: 200px;
+    }
+
+    .CasesPage .date {
+        width: 147px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 112px;
+    }
+
+    .CasesPage .court2 {
+        width: 205px;
+    }
+
+    .CasesPage .name2 {
+        width: 235px;
+    }
+
+    .CasesPage .date2 {
+        width: 154px;
+    }
+
+    .CasesPage .box .rectangle,
+    .CasesPage .box2 .rectangle {
+        font-size: 20px;
+    }
+
+    .CasesPage .box .case {
+        font-size: 18px;
+    }
+}
+
+@media (min-width : 1350px) and (max-width : 1399px) {
+    .CasesPage {
+        padding: 16.5px;
+    }
+
+    .CasesPage .box {
+        width: 97px;
+    }
+
+    .CasesPage .court {
+        width: 190px;
+    }
+
+    .CasesPage .name {
+        width: 192px;
+    }
+
+    .CasesPage .date {
+        width: 140px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 111px;
+    }
+
+    .CasesPage .court2 {
+        width: 197px;
+    }
+
+    .CasesPage .name2 {
+        width: 225px;
+    }
+
+    .CasesPage .date2 {
+        width: 148px;
+    }
+
+    .CasesPage .box .rectangle,
+    .CasesPage .box2 .rectangle {
+        font-size: 19px;
+    }
+
+    .CasesPage .box .case {
+        font-size: 18px;
+    }
+}
+
+@media (min-width : 1300px) and (max-width : 1349px) {
+    .CasesPage {
+        padding: 16.5px;
+    }
+
+    .CasesPage .box {
+        width: 92px;
+    }
+
+    .CasesPage .court {
+        width: 183px;
+    }
+
+    .CasesPage .name {
+        width: 185px;
+    }
+
+    .CasesPage .date {
+        width: 133px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 105px;
+    }
+
+    .CasesPage .court2 {
+        width: 192px;
+    }
+
+    .CasesPage .name2 {
+        width: 220px;
+    }
+
+    .CasesPage .date2 {
+        width: 140px;
+    }
+
+    .CasesPage .box .rectangle,
+    .CasesPage .box2 .rectangle {
+        font-size: 19px;
+    }
+
+    .CasesPage .box .case {
+        font-size: 17.5px;
+    }
+
+    .CasesPage .box .caseno {
+        font-size: 15px;
+    }
+}
+
+@media (min-width : 1250px) and (max-width : 1299px) {
+    .CasesPage {
+        padding: 13px;
+    }
+
+    .CasesPage .box {
+        width: 89px;
+    }
+
+    .CasesPage .court {
+        width: 178px;
+    }
+
+    .CasesPage .name {
+        width: 180px;
+    }
+
+    .CasesPage .date {
+        width: 128px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 98px;
+    }
+
+    .CasesPage .court2 {
+        width: 187px;
+    }
+
+    .CasesPage .name2 {
+        width: 215px;
+    }
+
+    .CasesPage .date2 {
+        width: 135px;
+    }
+
+    .CasesPage .box .rectangle,
+    .CasesPage .box2 .rectangle {
+        font-size: 17px;
+    }
+
+    .CasesPage .box .case {
+        font-size: 16.9px;
+    }
+
+    .CasesPage .box .caseno {
+        font-size: 15px;
+    }
+}
+
+@media (min-width : 1200px) and (max-width : 1249px) {
+    .CasesPage {
+        padding: 12.5px;
+    }
+
+    .CasesPage .box {
+        height: 70px;
+        width: 85px;
+    }
+
+    .CasesPage .court {
+        width: 175px;
+    }
+
+    .CasesPage .name {
+        width: 172px;
+    }
+
+    .CasesPage .date {
+        width: 124px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 90px;
+        height: 70px;
+    }
+
+    .CasesPage .court2 {
+        width: 179px;
+    }
+
+    .CasesPage .name2 {
+        width: 209px;
+    }
+
+    .CasesPage .date2 {
+        width: 129px;
+    }
+
+    .CasesPage .box .rectangle,
+    .CasesPage .box2 .rectangle {
+        font-size: 15px;
+    }
+
+    .CasesPage .box .case {
+        font-size: 16.4px;
+    }
+
+    .CasesPage .box .caseno {
+        font-size: 15px;
+    }
+}
+
+@media (min-width : 1150px) and (max-width : 1199px) {
+    .CasesPage {
+        padding: 12px;
+    }
+
+    .CasesPage .box {
+        width: 81px;
+        height: 66px;
+    }
+
+    .CasesPage .court {
+        width: 168px;
+    }
+
+    .CasesPage .name {
+        width: 166px;
+    }
+
+    .CasesPage .date {
+        width: 117.5px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 85px;
+        height: 70px;
+    }
+
+    .CasesPage .court2 {
+        width: 173px;
+    }
+
+    .CasesPage .name2 {
+        width: 203px;
+    }
+
+    .CasesPage .date2 {
+        width: 123px;
+    }
+
+    .CasesPage .box .rectangle,
+    .CasesPage .box2 .rectangle {
+        font-size: 15px;
+    }
+
+    .CasesPage .box .case {
+        font-size: 15px;
+    }
+
+    .CasesPage .box .caseno {
+        font-size: 15px;
+    }
+}
+
+@media (min-width : 1100px) and (max-width : 1149px) {
+    .CasesPage {
+        padding: 12px;
+    }
+
+    .CasesPage .box {
+        width: 76px;
+        height: 66px;
+    }
+
+    .CasesPage .court {
+        width: 162px;
+    }
+
+    .CasesPage .name {
+        width: 159px;
+    }
+
+    .CasesPage .date {
+        width: 112px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 82px;
+        height: 70px;
+    }
+
+    .CasesPage .court2 {
+        width: 165px;
+    }
+
+    .CasesPage .name2 {
+        width: 190px;
+    }
+
+    .CasesPage .date2 {
+        width: 117px;
+    }
+
+    .CasesPage .box .rectangle,
+    .CasesPage .box2 .rectangle {
+        font-size: 15px;
+    }
+
+    .CasesPage .box .case {
+        font-size: 14.5px;
+    }
+
+    .CasesPage .box .caseno {
+        font-size: 14px;
+    }
+}
+
+@media (min-width : 1050px) and (max-width : 1099px) {
+    .CasesPage {
+        padding: 12px;
+    }
+
+    .CasesPage .box {
+        width: 74px;
+        height: 66px;
+    }
+
+    .CasesPage .court {
+        width: 154px;
+    }
+
+    .CasesPage .name {
+        width: 148px;
+    }
+
+    .CasesPage .date {
+        width: 108px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 80px;
+        height: 70px;
+    }
+
+    .CasesPage .court2 {
+        width: 163px;
+    }
+
+    .CasesPage .name2 {
+        width: 183px;
+    }
+
+    .CasesPage .date2 {
+        width: 110px;
+    }
+
+    .CasesPage .box .rectangle,
+    .CasesPage .box2 .rectangle {
+        font-size: 14.5px;
+    }
+
+    .CasesPage .box .case {
+        font-size: 14.2px;
+    }
+
+    .CasesPage .box .caseno {
+        font-size: 13.5px;
+    }
+}
+
+@media (min-width : 1000px) and (max-width : 1049px) {
+    .CasesPage {
+        padding: 12px;
+    }
+
+    .CasesPage .box,
+    .CasesPage .box2 {
+        width: 72px;
+        height: 60px;
+        border-radius: 15px;
+    }
+
+    .CasesPage .court {
+        width: 152px;
+    }
+
+    .CasesPage .name {
+        width: 140px;
+    }
+
+    .CasesPage .date {
+        width: 100px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 80px;
+    }
+
+    .CasesPage .court2 {
+        width: 160px;
+    }
+
+    .CasesPage .name2 {
+        width: 170px;
+    }
+
+    .CasesPage .date2 {
+        width: 104px;
+    }
+
+    .CasesPage .box .rectangle,
+    .CasesPage .box2 .rectangle {
+        font-size: 14.4px;
+    }
+
+    .CasesPage .box .case {
+        font-size: 13.1px;
+    }
+
+    .CasesPage .box .caseno {
+        font-size: 13px;
+    }
+}
+
+@media (min-width : 950px) and (max-width : 999px) {
+    .CasesPage {
+        padding: 12px;
+    }
+
+    .CasesPage .box,
+    .CasesPage .box2 {
+        width: 72px;
+        height: 55px;
+        border-radius: 15px;
+    }
+
+    .CasesPage .court {
+        width: 145px;
+    }
+
+    .CasesPage .name {
+        width: 140px;
+    }
+
+    .CasesPage .date {
+        width: 90px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 78px;
+    }
+
+    .CasesPage .court2 {
+        width: 150px;
+    }
+
+    .CasesPage .name2 {
+        width: 160px;
+    }
+
+    .CasesPage .date2 {
+        width: 99px;
+    }
+
+    .CasesPage .box .rectangle,
+    .CasesPage .box2 .rectangle {
+        font-size: 12px;
+    }
+
+    .CasesPage .box .case {
+        font-size: 11.8px;
+    }
+
+    .CasesPage .box .caseno {
+        font-size: 12.5px;
+    }
+}
+
+@media (min-width : 900px) and (max-width : 949px) {
+    .CasesPage {
+        padding: 12px;
+    }
+
+    .CasesPage .box,
+    .CasesPage .box2 {
+        width: 72px;
+        height: 55px;
+        border-radius: 15px;
+    }
+
+    .CasesPage .court {
+        width: 125px;
+    }
+
+    .CasesPage .name {
+        width: 135px;
+    }
+
+    .CasesPage .date {
+        width: 86px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 78px;
+    }
+
+    .CasesPage .court2 {
+        width: 140px;
+    }
+
+    .CasesPage .name2 {
+        width: 150px;
+    }
+
+    .CasesPage .date2 {
+        width: 94px;
+    }
+
+    .CasesPage .box .rectangle,
+    .CasesPage .box2 .rectangle {
+        font-size: 12px;
+    }
+
+    .CasesPage .box .case {
+        font-size: 11.3px;
+    }
+
+    .CasesPage .box .caseno {
+        font-size: 12px;
+    }
+}
+
+@media (min-width : 850px) and (max-width : 899px) {
+    .CasesPage {
+        padding: 12px;
+    }
+
+    .CasesPage .box,
+    .CasesPage .box2 {
+        width: 72px;
+        height: 55px;
+        border-radius: 15px;
+    }
+
+    .CasesPage .court {
+        width: 110px;
+    }
+
+    .CasesPage .name {
+        width: 120px;
+    }
+
+    .CasesPage .date {
+        width: 86px;
+    }
+
+
+    .CasesPage .box2 {
+        width: 78px;
+    }
+
+    .CasesPage .court2 {
+        width: 130px;
+    }
+
+    .CasesPage .name2 {
+        width: 135px;
+    }
+
+    .CasesPage .date2 {
+        width: 90px;
+    }
+
+    .CasesPage .box .rectangle,
+    .CasesPage .box2 .rectangle {
+        font-size: 12px;
+    }
+
+    .CasesPage .box .case {
+        font-size: 11.3px;
+    }
+
+    .CasesPage .box .caseno {
+        font-size: 12px;
+    }
+} 

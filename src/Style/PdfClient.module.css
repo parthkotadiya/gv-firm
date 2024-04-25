@@ -1,0 +1,449 @@
+.pdf {
+    padding: 20px;
+    position: relative;
+}
+
+.pdfh2 {
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+.dowloadimg {
+    width: 50px;
+    height: 50px;
+}
+
+.imgicon {
+    position: absolute;
+    bottom: 23%;
+    right: 20%;
+    opacity: 0.3;
+    width: 850px;
+    height: 750px;
+    object-fit: cover;
+}
+
+.clientname,
+.clientnameP {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    line-height: 1.2;
+    padding: 20px 14px;
+}
+
+.clientnameP {
+    font-weight: 500;
+    font-size: 25px;
+    padding: 20px 14px;
+    width: 1000px;
+}
+
+.case,
+.casetype,
+.business,
+.address,
+.Street,
+.Email {
+    margin-top: 100px;
+    padding: 0 25px;
+    color: #000;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 20%;
+}
+
+.casetype,
+.business,
+.address,
+.Street,
+.Email {
+    margin-top: 70px;
+}
+
+.party,
+.opposite {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+    padding: 15px 25px 15px 10px;
+    background-color: #000;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.opposite {
+    margin-top: 130px;
+}
+
+.dowloadimgwidth {
+    width: 70px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1px solid rgba(33, 33, 33, 0.14);
+    background: #fff;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    margin-top: 25px;
+    margin-left: 170px;
+    cursor: pointer;
+}
+
+.dowloadimg {
+    width: 40px;
+    height: 40px;
+}
+
+@media (min-width : 1700px) and (max-width : 1800px) {
+    .clientnameP {
+        width: 900px;
+    }
+
+    .imgicon {
+        bottom: 25%;
+        right: 14%;
+    }
+}
+
+@media (min-width : 1600px) and (max-width : 1699px) {
+    .clientnameP {
+        width: 840px;
+    }
+
+    .imgicon {
+        bottom: 25%;
+        right: 14%;
+    }
+}
+
+@media (min-width : 1500px) and (max-width : 1599px) {
+    .clientname {
+        font-size: 20px;
+        padding: 20px 10px;
+    }
+
+    .clientnameP {
+        width: 770px;
+        padding: 20px 14px;
+        font-size: 20px;
+    }
+
+    .imgicon {
+        bottom: 25%;
+        right: 10%;
+    }
+
+    .pdfh2 {
+        padding-top: 10px;
+        font-weight: 700;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .party,
+    .opposite {
+        font-size: 30px;
+        margin-top: 15px;
+        padding: 15px 25px 15px 10px;
+    }
+}
+
+@media (min-width : 1400px) and (max-width : 1499px) {
+    .clientname {
+        font-size: 20px;
+        padding: 20px 10px;
+    }
+
+    .clientnameP {
+        width: 770px;
+        padding: 20px 14px;
+        font-size: 20px;
+    }
+
+    .imgicon {
+        bottom: 25%;
+        right: 10%;
+    }
+
+    .pdfh2 {
+        padding-top: 10px;
+        font-weight: 700;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .party,
+    .opposite {
+        font-size: 30px;
+        margin-top: 15px;
+        padding: 15px 25px 15px 10px;
+    }
+
+    .dowloadimgwidth {
+        margin-left: 65px;
+    }
+}
+
+@media (min-width : 1300px) and (max-width : 1399px) {
+    .clientname {
+        font-size: 20px;
+        padding: 20px 10px;
+    }
+
+    .clientnameP {
+        width: 770px;
+        padding: 20px 14px;
+        font-size: 20px;
+    }
+
+    .imgicon {
+        bottom: 25%;
+        right: 10%;
+    }
+
+    .pdfh2 {
+        padding-top: 10px;
+        font-weight: 700;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .party,
+    .opposite {
+        font-size: 30px;
+        margin-top: 15px;
+        padding: 15px 25px 15px 10px;
+    }
+
+    .dowloadimgwidth {
+        margin-left: 7px;
+    }
+}
+
+@media (min-width : 1200px) and (max-width : 1299px) {
+    .clientname {
+        font-size: 20px;
+        padding: 20px 10px;
+    }
+
+    .clientnameP {
+        width: 770px;
+        padding: 20px 14px;
+        font-size: 20px;
+    }
+
+    .imgicon {
+        bottom: 25%;
+        right: 10%;
+    }
+
+    .pdfh2 {
+        padding-top: 10px;
+        font-weight: 700;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .party,
+    .opposite {
+        font-size: 30px;
+        margin-top: 15px;
+        padding: 15px 25px 15px 10px;
+    }
+
+    .dowloadimgwidth {
+        position: absolute;
+        margin-top: 0;
+        margin-left: 0;
+        left: 90%;
+        top: 21%;
+    }
+}
+
+@media (min-width : 1100px) and (max-width : 1199px) {
+    .clientname {
+        font-size: 20px;
+        padding: 20px 10px;
+    }
+
+    .clientnameP {
+        width: 688px;
+        padding: 20px 14px;
+        font-size: 20px;
+    }
+
+    .imgicon {
+        bottom: 25%;
+        right: 5%;
+    }
+
+    .pdfh2 {
+        padding-top: 10px;
+        font-weight: 700;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .party,
+    .opposite {
+        font-size: 30px;
+        margin-top: 15px;
+        padding: 15px 25px 15px 10px;
+    }
+
+    .dowloadimgwidth {
+        position: absolute;
+        margin-top: 0;
+        margin-left: 0;
+        left: 90%;
+        top: 21%;
+    }
+}
+
+@media (min-width : 1000px) and (max-width : 1099px) {
+    .clientname {
+        font-size: 20px;
+        padding: 15px 10px;
+    }
+
+    .clientnameP {
+        width: 605px;
+        padding: 15px 14px;
+        font-size: 20px;
+    }
+
+    .imgicon {
+        bottom: 25%;
+        right: 2%;
+
+    }
+
+    .pdfh2 {
+        padding-top: 10px;
+        font-weight: 700;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .party,
+    .opposite {
+        font-size: 30px;
+        margin-top: 15px;
+        margin-bottom: 16px;
+        padding: 15px 25px 15px 10px;
+    }
+
+    .dowloadimgwidth {
+        position: absolute;
+        margin-top: 0;
+        margin-left: 0;
+        left: 90%;
+        top: 21%;
+    }
+}
+
+@media (min-width : 900px) and (max-width : 999px) {
+    .clientname {
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+
+    .clientnameP {
+        width: 521px;
+        padding: 10px 14px;
+        font-size: 20px;
+    }
+
+    .imgicon {
+        bottom: 27%;
+        right: 3%;
+        width: 750px;
+        height: 675px;
+    }
+
+    .pdfh2 {
+        padding-top: 10px;
+        font-weight: 700;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .party,
+    .opposite {
+        font-size: 30px;
+        margin-top: 15px;
+        margin-bottom: 16px;
+        padding: 15px 25px 15px 10px;
+    }
+
+    .dowloadimgwidth {
+        position: absolute;
+        margin-top: 0;
+        margin-left: 0;
+        left: 90%;
+        top: 19%;
+    }
+}
+
+@media (min-width : 800px) and (max-width : 899px) {
+    .clientname {
+        font-size: 17px;
+        padding: 10px 10px;
+    }
+
+    .clientnameP {
+        width: 430px;
+        padding: 0px 14px;
+        font-size: 20px;
+    }
+
+    .imgicon {
+        bottom: 27%;
+        right: 3%;
+        width: 630px;
+        height: 560px
+    }
+
+    .pdfh2 {
+        padding-top: 10px;
+        font-weight: 700;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .party,
+    .opposite {
+        font-size: 15px;
+        margin-top: 0px;
+        margin-bottom: 16px;
+        padding: 10px;
+    }
+
+    .dowloadimgwidth {
+        position: absolute;
+        margin-top: 0;
+        margin-left: 0;
+        left: 90%;
+        top: 17%;
+    }
+
+    .pdfh2 {
+        padding-top: 0px;
+        font-size: 15px;
+    }
+
+    .dowloadimgwidth {
+        width: 65px;
+        height: 55px;
+    }
+}

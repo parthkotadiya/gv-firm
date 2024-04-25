@@ -1,0 +1,356 @@
+.term input {
+  width: 618.748px;
+  height: 62.249px;
+  padding-left: 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  padding-right: 25px;
+}
+
+.mainTime {
+  display: flex;
+  gap: 30px;
+  padding-top: 8px;
+  padding-bottom: 20px;
+}
+
+.difference input {
+  border-radius: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  padding-left: 15px;
+  width: 618.748px;
+  height: 62.249px;
+}
+
+.difference {
+  display: flex;
+  gap: 30px;
+}
+
+.difference p {
+  border-radius: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  width: 618.748px;
+  height: 62.249px;
+  padding: 19px 0 18px 15px;
+  position: relative;
+}
+
+
+.email {
+  border-radius: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  padding: 13px 13px;
+}
+
+.others1 {
+  border-radius: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  padding: 13px 13px;
+}
+
+.mainDays {
+  display: flex;
+  gap: 66px;
+}
+
+p {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lastName {
+  border-radius: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  width: 600px;
+  height: 60px;
+  gap: 5px;
+  margin: 20px;
+  padding-left: 15px;
+}
+
+.Button {
+  text-align: center;
+  padding: 20px 36px 18px 28px;
+  border-radius: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  width: 292.252px;
+  height: 62.249px;
+  margin: 20px;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.main {
+  margin: 20px;
+}
+
+.main_2 {
+  padding-top: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+}
+
+.heanding {
+  padding: 19px 24px;
+}
+
+@media (min-width : 1500px) and (max-width : 1570px) {
+  .lastName {
+    width: 545px;
+  }
+
+  .term input {
+    width: 545px;
+  }
+
+  .termexpiry input {
+    margin-left: 18px;
+  }
+
+  .difference input {
+    width: 545px;
+    margin-left: 18px;
+  }
+
+  .difference p {
+    width: 545px;
+  }
+}
+
+@media (min-width : 1400px) and (max-width : 1499px) {
+  .lastName {
+    width: 535px;
+  }
+
+  .term input {
+    width: 535px;
+  }
+
+  .termexpiry input {
+    margin-left: 18px;
+  }
+
+  .difference input {
+    width: 535px;
+    margin-left: 18px;
+  }
+
+  .difference p {
+    width: 535px;
+  }
+}
+
+@media (min-width : 1300px) and (max-width : 1399px) {
+  .lastName {
+    width: 495px;
+  }
+
+  .term input {
+    width: 495px;
+  }
+
+  .termexpiry input {
+    margin-left: 18px;
+  }
+
+  .difference input {
+    width: 495px;
+    margin-left: 18px;
+  }
+
+  .difference p {
+    width: 495px;
+  }
+}
+
+@media (min-width : 1200px) and (max-width : 1299px) {
+  .block {
+    display: block !important;
+  }
+
+  .mainTime {
+    display: block;
+  }
+
+  .difference {
+    display: block;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .lastName {
+    width: 495px;
+  }
+
+  .term input {
+    width: 495px;
+  }
+
+  .termexpiry input {
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+
+  .difference input {
+    width: 495px;
+    margin-left: 0px;
+    margin-top: 24px;
+  }
+
+  .difference p {
+    width: 495px;
+  }
+}
+
+@media (min-width : 1100px) and (max-width : 1199px) {
+  .block {
+    display: block !important;
+  }
+
+  .mainTime {
+    display: block;
+  }
+
+  .difference {
+    display: block;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .lastName {
+    width: 550px;
+  }
+
+  .term input {
+    width: 550px;
+  }
+
+  .termexpiry input {
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+
+  .difference input {
+    width: 550px;
+    margin-left: 0px;
+    margin-top: 24px;
+  }
+
+  .difference p {
+    width: 550px;
+  }
+}
+
+@media (min-width : 900px) and (max-width : 999px) {
+  .block {
+    display: block !important;
+  }
+
+  .mainTime {
+    display: block;
+  }
+
+  .difference {
+    display: block;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .lastName {
+    width: 550px;
+  }
+
+  .term input {
+    width: 550px;
+  }
+
+  .termexpiry input {
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+
+  .difference input {
+    width: 550px;
+    margin-left: 0px;
+    margin-top: 24px;
+  }
+
+  .difference p {
+    width: 550px;
+  }
+}
+
+@media (min-width : 800px) and (max-width : 899px) {
+  .block {
+    display: block !important;
+  }
+
+  .mainTime {
+    display: block;
+  }
+
+  .difference {
+    display: block;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .lastName {
+    width: 550px;
+  }
+
+  .term input {
+    width: 550px;
+  }
+
+  .termexpiry input {
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+
+  .difference input {
+    width: 550px;
+    margin-left: 0px;
+    margin-top: 24px;
+  }
+
+  .difference p {
+    width: 550px;
+  }
+}

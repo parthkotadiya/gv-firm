@@ -1,0 +1,390 @@
+.mainClient {
+    padding: 0 30px;
+}
+
+.client {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+}
+.mainClient h3 {
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .clientData p{
+    margin-bottom: 0;
+  }
+.inner{
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    margin-top: 32px;
+}
+
+.clientData span {
+    cursor: pointer;
+}
+
+.inner, .clientData {
+    padding: 24px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner h5 {
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.id,.id2,.uniqueId,.uniqueId2,.partyName,.partyName2,.oppPartyName,.oppPartyName2,.loan,.loan2,.caseNo,.caseNo2,.action,.action2,.clientId,.clientId2,.clientUniqueId,.clientUniqueId2,.clientName,.clientName2,.clientOppName,.clientOppName2,.clientLoan,.clientLoan2,.clientCaseNo,.clientCaseNo2,.clientAction,.clientAction2{
+    padding: 11px 0;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgba(33, 33, 33, 0.14);
+    background: #fff;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    display: inline-block;
+    margin-left: 10px;
+}
+.id,.clientId,.id2,.clientId2{
+    margin-left: 0;
+}
+.id,.uniqueId,.clientId,.clientUniqueId{
+    width: 130px;
+}
+.partyName,.clientName{
+    width: 270px;
+}
+.oppPartyName,.clientOppName{
+    width: 270px;
+}
+.loan,.clientLoan{
+    width: 250px;
+}
+.caseNo,.clientCaseNo{
+width: 200px;
+}
+.action,.clientAction{
+    width: 200px;
+}
+.id2,.uniqueId2,.clientId2,.clientUniqueId2{
+    width: 150px;
+}
+.partyName2,.clientName2{
+    width: 310px;
+}
+.oppPartyName2,.clientOppName2{
+    width: 310px;
+}
+.loan2,.clientLoan2{
+    width: 260px;
+}
+.caseNo2,.clientCaseNo2{
+    width: 220px;
+}
+.action2,.clientAction2{
+    width: 200px;
+}
+
+@media(max-width:2560px){
+    .inner h5 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .clientData p{
+        font-size: 20px;
+    }
+    .id,.uniqueId,.clientId,.clientUniqueId{
+        width: 130px;
+    }
+    .partyName,.clientName{
+        width: 420px;
+    }
+    .oppPartyName,.clientOppName{
+        width: 420px;
+    }
+    .loan,.clientLoan{
+        width: 350px;
+    }
+    .caseNo,.clientCaseNo{
+    width: 250px;
+    }
+    .action,.clientAction{
+        width: 250px;
+    }
+    .id2,.uniqueId2,.clientId2,.clientUniqueId2{
+        width: 160px;
+    }
+    .partyName2,.clientName2{
+        width: 460px;
+    }
+    .oppPartyName2,.clientOppName2{
+        width: 460px;
+    }
+    .loan2,.clientLoan2{
+        width: 420px;
+    }
+    .caseNo2,.clientCaseNo2{
+        width: 280px;
+    }
+    .action2,.clientAction2{
+        width: 280px;
+    }
+    
+} 
+@media (min-width: 1500px) and (max-width: 2559px){
+    .inner h5 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .clientData p{
+        font-size: 18px;
+    }
+  span svg{
+        width: 25px;
+        height: 25px;
+    }
+    .id,.uniqueId,.clientId,.clientUniqueId{
+        width: 180px;
+    }
+    .partyName,.clientName{
+        width: 420px;
+    }
+    .oppPartyName,.clientOppName{
+        width: 420px;
+    }
+    .loan,.clientLoan{
+        width: 350px;
+    }
+    .caseNo,.clientCaseNo{
+    width: 250px;
+    }
+    .action,.clientAction{
+        width: 250px;
+    }
+    .id2,.uniqueId2,.clientId2,.clientUniqueId2{
+        width: 180px;
+    }
+    .partyName2,.clientName2{
+        width: 460px;
+    }
+    .oppPartyName2,.clientOppName2{
+        width: 460px;
+    }
+    .loan2,.clientLoan2{
+        width: 420px;
+    }
+    .caseNo2,.clientCaseNo2{
+        width: 280px;
+    }
+    .action2,.clientAction2{
+        width: 280px;
+
+    }
+}
+@media (min-width: 1200px) and (max-width: 1499px){
+    .inner h5 {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .clientData p{
+        font-size: 14px;
+    }
+  .clientData span svg{
+        width: 18px;
+        height: 18px;
+    }
+    .id,.uniqueId,.clientId,.clientUniqueId{
+        width: 180px;
+    }
+    .partyName,.clientName{
+        width: 420px;
+    }
+    .oppPartyName,.clientOppName{
+        width: 420px;
+    }
+    .loan,.clientLoan{
+        width: 350px;
+    }
+    .caseNo,.clientCaseNo{
+    width: 250px;
+    }
+    .action,.clientAction{
+        width: 250px;
+    }
+    .id2,.uniqueId2,.clientId2,.clientUniqueId2{
+        width: 180px;
+    }
+    .partyName2,.clientName2{
+        width: 460px;
+    }
+    .oppPartyName2,.clientOppName2{
+        width: 460px;
+    }
+    .loan2,.clientLoan2{
+        width: 420px;
+    }
+    .caseNo2,.clientCaseNo2{
+        width: 280px;
+    }
+    .action2,.clientAction2{
+        width: 280px;
+
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .inner h5 {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .clientData p{
+        font-size: 12px;
+    }
+  .clientData span svg{
+        width: 15px;
+        height: 15px;
+    }
+    .id,.uniqueId,.clientId,.clientUniqueId{
+        width: 180px;
+    }
+    .partyName,.clientName{
+        width: 420px;
+    }
+    .oppPartyName,.clientOppName{
+        width: 420px;
+    }
+    .loan,.clientLoan{
+        width: 350px;
+    }
+    .caseNo,.clientCaseNo{
+    width: 250px;
+    }
+    .action,.clientAction{
+        width: 250px;
+    }
+    .id2,.uniqueId2,.clientId2,.clientUniqueId2{
+        width: 180px;
+    }
+    .partyName2,.clientName2{
+        width: 460px;
+    }
+    .oppPartyName2,.clientOppName2{
+        width: 460px;
+    }
+    .loan2,.clientLoan2{
+        width: 420px;
+    }
+    .caseNo2,.clientCaseNo2{
+        width: 280px;
+    }
+    .action2,.clientAction2{
+        width: 280px;
+
+    }
+}
+@media (min-width: 946px) and (max-width: 991px){
+    .inner h5 {
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .clientData p{
+        font-size: 11px;
+    }
+ .clientData  span svg{
+        width: 13px;
+        height: 13px;
+    }
+    .id,.clientId{
+        width: 145px;
+    }
+    .uniqueId,.clientUniqueId{
+        width: 204px;
+    }
+    .partyName,.clientName{
+        width: 550px;
+    }
+    .oppPartyName,.clientOppName{
+        width: 530px;
+    }
+    .loan,.clientLoan{
+        width: 330px;
+    }
+    .caseNo,.clientCaseNo{
+    width: 273px;
+    }
+    .action,.clientAction{
+        width: 274px;
+    }
+    .id2,.uniqueId2,.clientId2,.clientUniqueId2{
+        width: 225px;
+    }
+    .partyName2,.clientName2{
+        width: 480px;
+    }
+    .oppPartyName2,.clientOppName2{
+        width: 580px;
+    }
+    .loan2,.clientLoan2{
+        width: 420px;
+    }
+    .caseNo2,.clientCaseNo2{
+        width: 280px;
+    }
+    .action2,.clientAction2{
+        width: 280px;
+
+    }
+}
+@media (min-width: 850px) and (max-width: 945px){
+    .inner h5 {
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .clientData p{
+        font-size: 10px;
+    }
+ .clientData  span svg{
+        width: 13px;
+        height: 13px;
+    }
+    .id,.clientId{
+        width: 145px;
+    }
+    .uniqueId,.clientUniqueId{
+        width: 204px;
+    }
+    .partyName,.clientName{
+        width: 550px;
+    }
+    .oppPartyName,.clientOppName{
+        width: 530px;
+    }
+    .loan,.clientLoan{
+        width: 330px;
+    }
+    .caseNo,.clientCaseNo{
+    width: 273px;
+    }
+    .action,.clientAction{
+        width: 274px;
+    }
+    .id2,.uniqueId2,.clientId2,.clientUniqueId2{
+        width: 225px;
+    }
+    .partyName2,.clientName2{
+        width: 480px;
+    }
+    .oppPartyName2,.clientOppName2{
+        width: 580px;
+    }
+    .loan2,.clientLoan2{
+        width: 420px;
+    }
+    .caseNo2,.clientCaseNo2{
+        width: 280px;
+    }
+    .action2,.clientAction2{
+        width: 280px;
+
+    }
+}

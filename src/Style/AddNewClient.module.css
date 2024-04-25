@@ -1,0 +1,155 @@
+.clint {
+  padding: 0 30px;
+}
+
+.clint h3 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.clint h4 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+.clint .date {
+  border-radius: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  padding: 11px 20px;
+}
+
+.clint h5 {
+  font-size: 29px;
+  font-weight: 400;
+  margin: 39px 0 0;
+}
+
+::placeholder {
+  color: #5c5c5c;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.clint label {
+  margin: 39px 0 12px;
+  font-size: 18px;
+  font-weight: 400;
+  display: block;
+}
+
+.inputName {
+  width: 450px;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  padding: 11px 20px;
+}
+
+.businessName {
+   width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  padding: 11px 20px;
+}
+
+.request {
+  width: 100%;
+  height: 120px;
+  border-radius: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  padding: 11px 20px;
+}
+
+.submitBtn {
+  padding: 12px 50px;
+  border-radius: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  margin: 0 auto;
+}
+
+.error {
+  font-size: 16px;
+  color: red;
+  margin-top: 10px;
+}
+
+.Advocate {
+  width: 450px;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  padding: 11px 20px;
+}
+
+@media (min-width : 1700px) and (max-width : 1750px) {
+  .inputName {
+    width: 400px;
+  }
+}
+
+@media (min-width : 1600px) and (max-width : 1699px) {
+  .inputName {
+    width: 400px;
+  }
+}
+
+@media (min-width : 1500px) and (max-width : 1599px) {
+  .inputName {
+    width: 390px;
+  }
+}
+
+@media (min-width : 1400px) and (max-width : 1499px) {
+  .inputName {
+    width: 350px;
+  }
+}
+
+@media (min-width : 1300px) and (max-width : 1399px) {
+  .inputName {
+    width: 330px;
+  }
+}
+
+@media (min-width : 1200px) and (max-width : 1299px) {
+  .inputName {
+    width: 300px;
+  }
+}
+
+@media (min-width : 1100px) and (max-width : 1199px) {
+  .inputName {
+    width: 400px;
+  }
+}
+
+@media (min-width : 1000px) and (max-width : 1099px) {
+  .inputName {
+    width: 375px;
+  }
+}
+
+@media (min-width : 900px) and (max-width : 999px) {
+  .inputName {
+    width: 450px;
+  }
+}
+
+@media (min-width : 800px) and (max-width : 899px) {
+  .inputName {
+    width: 450px;
+  }
+}

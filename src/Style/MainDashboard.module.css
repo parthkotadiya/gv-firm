@@ -1,0 +1,1337 @@
+.box {
+    width: 490px;
+    height: 315px;
+    border-radius: 25px;
+    background: #f5f5f5;
+    box-shadow: 3px -6px 12px 0px rgba(0, 0, 0, 0.08);
+    position: relative;
+    margin: 0 20px;
+    padding: 28px 28px 0;
+}
+
+.box a,
+.box2 a {
+    text-decoration: none;
+}
+
+.ViewBtn {
+    padding: 10px 100px;
+    border-radius: 0px 0px 25px 25px;
+    background: #393939;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.box h3 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.box .casetext {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.box h4 {
+    margin: 30px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.box p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box2 {
+    width: 542px;
+    height: 315px;
+    border-radius: 25px;
+    background: #f5f5f5;
+    box-shadow: 3px -6px 12px 0px rgba(0, 0, 0, 0.08);
+    position: relative;
+    margin: 0 20px;
+    padding: 28px 28px 0;
+}
+
+.box2 h3 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.box2 h4 {
+    margin: 30px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.box2 .casetext {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.box2 p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bottomBox {
+    width: 490px;
+    height: 559px;
+    border-radius: 25px;
+    background: #f5f5f5;
+    box-shadow: 3px -6px 12px 0px rgba(0, 0, 0, 0.08);
+    position: relative;
+    margin: 0 20px;
+}
+
+.ViewBtn:hover {
+    color: #FFF;
+}
+
+.bottomBox .header {
+    width: 490px;
+    height: 73px;
+    border-radius: 25px 25px 0px 0px;
+    background: #393939;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 21px 23px;
+    color: #f3f4f4;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.bottomBox2 {
+    width: 542px;
+    height: 559px;
+    border-radius: 25px;
+    background: #f5f5f5;
+    box-shadow: 3px -6px 12px 0px rgba(0, 0, 0, 0.08);
+    position: relative;
+    margin: 0 20px;
+}
+
+.bottomBox2 .header {
+    width: 542px;
+    height: 73px;
+    border-radius: 25px 25px 0px 0px;
+    background: #393939;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 21px 23px;
+    color: #f3f4f4;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.text {
+    padding: 70px 0 0;
+}
+
+.text p {
+    padding-left: 29px;
+    margin: 22px 0;
+}
+
+.casebtn,
+.casebtn2,
+.casebtn3,
+.casebtn4 {
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0px 2px 10px #00000059;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.2s;
+    margin-top: 17px;
+    font-size: 16px;
+}
+
+.casebtn:hover,
+.casebtn2:hover,
+.casebtn3:hover,
+.casebtn4:hover {
+    background-color: #393939;
+    color: #fff;
+}
+
+.casebtn2 {
+    margin-left: 10px;
+}
+
+.casebtn3 {
+    margin-left: 10px;
+}
+
+.casebtn4 {
+    margin-left: 13px;
+}
+
+/* / Import Google font - Poppins / */
+/* calendar */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+}
+
+.wrapper header {
+    display: flex;
+    align-items: center;
+    padding: 25px 30px 10px;
+    justify-content: space-between;
+}
+
+header .icons {
+    display: flex;
+}
+
+header .icons span {
+    height: 48px;
+    width: 48px;
+    margin: 0 1px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 38px;
+    font-size: 1.9rem;
+    user-select: none;
+    border-radius: 50%;
+}
+
+.icons span:last-child {
+    margin-right: -10px;
+}
+
+header .current-date {
+    font-size: 1.45rem;
+    font-weight: 500;
+}
+
+.calendar {
+    padding: 20px;
+}
+
+.calendar ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+}
+
+.calendar .days {
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.calendar li {
+    width: calc(100% / 7);
+    font-size: 1.07rem;
+    border-radius: 18px;
+    border: 1px solid #c1c1c1;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    padding: 30px 50px;
+    font-weight: 700;
+}
+
+.calendar .weeks li {
+    font-weight: 700;
+    cursor: default;
+    align-items: center;
+}
+
+.calendar .days li {
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+}
+
+li .inactive {
+    background: aliceblue !important;
+    z-index: 5;
+}
+
+.days li.inactive {
+    color: #ededed;
+}
+
+.days li.active {
+    color: #878787;
+}
+
+.days li::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    z-index: -1;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.prev {
+    border: 1px solid #a6a6a6;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.next {
+    border: 1px solid #a6a6a6;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.currentDatee {
+    position: relative;
+    left: 30px;
+    font-size: 36px;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .wrapper {
+        width: auto;
+        margin: auto;
+        font-size: 25px;
+    }
+
+    .wrapper.header {
+        display: flex;
+        align-items: center;
+        padding: 20px 28px 10px;
+        justify-content: space-between;
+    }
+
+    .header.icons span {
+        height: 48px;
+        width: 48px;
+        margin: 0 1px;
+        font-size: 1.9rem;
+        border-radius: 50%;
+    }
+
+    .calendar {
+        padding: 18px !important;
+    }
+
+    .calendar .days {
+        margin-bottom: 22px !important;
+    }
+
+    .calendar li {
+        width: calc(100% / 7);
+        padding: 20px 40px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .wrapper {
+        width: auto;
+        margin: auto;
+        font-size: 22px;
+    }
+
+    .wrapper.header {
+        display: flex;
+        align-items: center;
+        padding: 15px 25px 10px;
+    }
+
+    .header.icons span {
+        height: auto;
+        width: auto;
+        border-radius: 40%;
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .wrapper {
+        width: auto !important;
+        margin: auto !important;
+        font-size: 19px;
+    }
+
+    .wrapper.header {
+        padding: 10px 20px 5px;
+        display: flex;
+        align-items: center;
+    }
+
+    .calendar .days {
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .calendar li {
+        width: calc(100% / 7);
+        font-size: 1.05rem;
+        padding: 18px 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .calendar .weeks li {
+        font-weight: 400;
+    }
+
+    .days li::before {
+        position: absolute;
+        left: 40%;
+        top: 40%;
+        z-index: -1;
+        height: 35px;
+        width: 35px;
+        border-radius: 40%;
+        transform: translate(-40%, -40%);
+    }
+
+    .prev {
+        padding: 8px 15px;
+    }
+
+    .next {
+        padding: 8px 15px;
+    }
+
+    .currentDatee {
+        font-size: 19px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 530px) and (max-width: 767px) {
+    .wrapper {
+        width: auto !important;
+        margin: auto !important;
+        font-size: 19px;
+    }
+
+    .wrapper.header {
+        padding: 10px 20px 5px;
+        display: flex;
+        align-items: center;
+    }
+
+    .calendar .days {
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .calendar li {
+        width: calc(100% / 7);
+        font-size: 1.01rem;
+        padding: 10px 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .calendar .weeks li {
+        font-weight: 400;
+    }
+
+    .days li::before {
+        position: absolute;
+        left: 40%;
+        top: 40%;
+        z-index: -1;
+        height: 35px;
+        width: 35px;
+        border-radius: 40%;
+        transform: translate(-40%, -40%);
+    }
+
+    .prev {
+        padding: 5px 10px;
+    }
+
+    .next {
+        padding: 5px 10px;
+    }
+
+    .currentDatee {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 470px) and (max-width: 529px) {
+    .wrapper {
+        width: auto !important;
+        margin: auto !important;
+        font-size: 15px;
+    }
+
+    .wrapper.header {
+        padding: 10px 20px 5px;
+        display: flex;
+        align-items: center;
+    }
+
+    .calendar .days {
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .calendar li {
+        width: calc(100% / 7);
+        font-size: 15px;
+        padding: 8px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .calendar .weeks li {
+        font-weight: 400;
+    }
+
+    .days li::before {
+        position: absolute;
+        left: 40%;
+        top: 40%;
+        z-index: -1;
+        height: 35px;
+        width: 35px;
+        border-radius: 40%;
+        transform: translate(-40%, -40%);
+    }
+
+    .prev {
+        padding: 5px 10px;
+    }
+
+    .next {
+        padding: 5px 10px;
+    }
+
+    .currentDatee {
+        font-size: 16px;
+        font-weight: bold;
+        font-family: DM Sans;
+    }
+}
+
+/* Up to Media Query Box  */
+@media (min-width : 1800px) and (max-width : 1870px) {
+    .box {
+        width: 470px;
+        height: 315px;
+    }
+
+    .bottomBox {
+        width: 470px;
+        height: 559px;
+    }
+
+    .bottomBox .header {
+        width: 470px;
+        height: 73px;
+    }
+
+    .box2 {
+        width: 520px;
+        height: 315px;
+    }
+
+    .bottomBox2 {
+        width: 470px;
+        height: 559px;
+    }
+
+    .bottomBox2 .header {
+        width: 470px;
+        height: 73px;
+    }
+
+    .casebtn,
+    .casebtn2,
+    .casebtn3,
+    .casebtn4 {
+        padding: 8px 16px;
+    }
+}
+
+@media (min-width : 1700px) and (max-width : 1799px) {
+    .box {
+        width: 440px;
+        height: 315px;
+        margin: 0px 17px;
+    }
+
+    .bottomBox {
+        width: 440px;
+        height: 559px;
+        margin: 0px 17px;
+    }
+
+    .bottomBox .header {
+        width: 440px;
+        height: 73px;
+    }
+
+    .box2 {
+        width: 490px;
+        height: 315px;
+        margin: 0px 17px;
+    }
+
+    .bottomBox2 {
+        width: 470px;
+        height: 559px;
+        margin: 0px 17px;
+    }
+
+    .bottomBox2 .header {
+        width: 470px;
+        height: 73px;
+    }
+
+    .casebtn,
+    .casebtn2,
+    .casebtn3,
+    .casebtn4 {
+        padding: 7px 14px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width : 1600px) and (max-width : 1699px) {
+    .box {
+        width: 435px;
+        height: 315px;
+        margin: 0px 4px;
+        padding: 15px;
+    }
+
+    .bottomBox {
+        width: 435px;
+        height: 559px;
+        margin: 0px 4px;
+        padding: 15px;
+    }
+
+    .bottomBox .header {
+        width: 435px;
+        height: 73px;
+    }
+
+    .box2 {
+        width: 460px;
+        height: 315px;
+        margin: 0px 15px;
+    }
+
+    .bottomBox2 {
+        width: 450px;
+        height: 559px;
+        margin: 0px 15px;
+    }
+
+    .bottomBox2 .header {
+        width: 450px;
+        height: 73px;
+    }
+
+    .casebtn,
+    .casebtn2,
+    .casebtn3,
+    .casebtn4 {
+        padding: 7px 14px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width : 1500px) and (max-width : 1599px) {
+    .box {
+        width: 405px;
+        height: 290px;
+        margin: 0px 6px;
+        padding: 15px;
+    }
+
+    .bottomBox {
+        width: 405px;
+        height: 540px;
+        margin: 0px 4px;
+        padding: 15px;
+    }
+
+    .bottomBox .header {
+        width: 405px;
+        height: 73px;
+    }
+
+    .bottomBox .header h3 {
+        font-size: 25px;
+    }
+
+    .box2 {
+        width: 430px;
+        height: 310px;
+        margin: 0px 15px;
+    }
+
+    .bottomBox2 {
+        width: 435px;
+        height: 550px;
+        margin: 0px 15px;
+    }
+
+    .bottomBox2 .header {
+        width: 435px;
+        height: 73px;
+    }
+
+    .box h3 {
+        font-size: 32px;
+    }
+
+    .dashboardicon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .box h4 {
+        font-size: 22px;
+    }
+
+    .box p {
+        font-size: 15px;
+    }
+
+    .ViewBtn {
+        font-size: 16px;
+    }
+
+    .casebtn,
+    .casebtn2,
+    .casebtn3,
+    .casebtn4 {
+        padding: 7px 13px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width : 1400px) and (max-width : 1499px) {
+    .box {
+        width: 375px;
+        height: 280px;
+        margin: 0px 6px;
+        padding: 15px;
+    }
+
+    .bottomBox {
+        width: 375px;
+        height: 520px;
+        margin: 0px 4px;
+        padding: 15px;
+    }
+
+    .bottomBox .header {
+        width: 375px;
+        height: 73px;
+    }
+
+    .bottomBox .header h3 {
+        font-size: 23px;
+    }
+
+    .box2 {
+        width: 405px;
+        height: 310px;
+        margin: 0px 15px;
+    }
+
+    .bottomBox2 {
+        width: 405px;
+        height: 550px;
+        margin: 0px 15px;
+    }
+
+    .bottomBox2 .header {
+        width: 405px;
+        height: 73px;
+    }
+
+    .box h3 {
+        font-size: 32px;
+    }
+
+    .dashboardicon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .box h4 {
+        font-size: 22px;
+    }
+
+    .box p {
+        font-size: 15px;
+    }
+
+    .ViewBtn {
+        font-size: 16px;
+    }
+
+    .casebtn,
+    .casebtn2,
+    .casebtn3,
+    .casebtn4 {
+        padding: 7px 11px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width : 1300px) and (max-width : 1399px) {
+    .maindashboard {
+        margin-top: 5px !important;
+    }
+
+    .colwidth {
+        flex: 0 0 auto;
+        width: 50%;
+        margin-top: 20px !important;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    .box {
+        width: 90%;
+        height: 280px;
+        margin: 0px 6px;
+        padding: 15px;
+    }
+
+    .bottomBox {
+        width: 90%;
+        height: 520px;
+        margin: 0px 4px;
+        padding: 15px;
+    }
+
+    .bottomBox .header {
+        width: 100%;
+        height: 73px;
+    }
+
+    .bottomBox .header h3 {
+        font-size: 23px;
+    }
+
+    .box2 {
+        width: 90%;
+        height: 310px;
+        margin: 0px 15px;
+    }
+
+    .bottomBox2 {
+        width: 90%;
+        height: 550px;
+        margin: 0px 15px;
+    }
+
+    .bottomBox2 .header {
+        width: 100%;
+        height: 73px;
+    }
+
+    .box h3 {
+        font-size: 32px;
+    }
+
+    .dashboardicon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .box h4 {
+        font-size: 22px;
+    }
+
+    .box p {
+        font-size: 15px;
+    }
+
+    .ViewBtn {
+        font-size: 16px;
+    }
+}
+
+@media (min-width : 1200px) and (max-width : 1299px) {
+    .maindashboard {
+        margin-top: 5px !important;
+    }
+
+    .colwidth {
+        flex: 0 0 auto;
+        width: 50%;
+        margin-top: 20px !important;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    .box {
+        width: 90%;
+        height: 280px;
+        margin: 0px 6px;
+        padding: 15px;
+    }
+
+    .bottomBox {
+        width: 90%;
+        height: 520px;
+        margin: 0px 4px;
+        padding: 15px;
+    }
+
+    .bottomBox .header {
+        width: 100%;
+        height: 73px;
+    }
+
+    .bottomBox .header h3 {
+        font-size: 23px;
+    }
+
+    .box2 {
+        width: 90%;
+        height: 310px;
+        margin: 0px 15px;
+    }
+
+    .bottomBox2 {
+        width: 90%;
+        height: 550px;
+        margin: 0px 15px;
+    }
+
+    .bottomBox2 .header {
+        width: 100%;
+        height: 73px;
+    }
+
+    .box h3 {
+        font-size: 32px;
+    }
+
+    .dashboardicon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .box h4 {
+        font-size: 22px;
+    }
+
+    .box p {
+        font-size: 15px;
+    }
+
+    .ViewBtn {
+        font-size: 16px;
+    }
+
+    .casebtn,
+    .casebtn2,
+    .casebtn3,
+    .casebtn4 {
+        padding: 9px 15px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width : 1100px) and (max-width : 1199px) {
+    .maindashboard {
+        margin-top: 5px !important;
+    }
+
+    .colwidth {
+        flex: 0 0 auto;
+        width: 50%;
+        margin-top: 20px !important;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    .box {
+        width: 90%;
+        height: 280px;
+        margin: 0px 6px;
+        padding: 15px;
+    }
+
+    .bottomBox {
+        width: 90%;
+        height: 520px;
+        margin: 0px 4px;
+        padding: 15px;
+    }
+
+    .bottomBox .header {
+        width: 100%;
+        height: 73px;
+    }
+
+    .bottomBox .header h3 {
+        font-size: 23px;
+    }
+
+    .box2 {
+        width: 90%;
+        height: 310px;
+        margin: 0px 15px;
+    }
+
+    .bottomBox2 {
+        width: 90%;
+        height: 550px;
+        margin: 0px 15px;
+    }
+
+    .bottomBox2 .header {
+        width: 100%;
+        height: 73px;
+    }
+
+    .box h3 {
+        font-size: 32px;
+    }
+
+    .dashboardicon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .box h4 {
+        font-size: 22px;
+    }
+
+    .box p {
+        font-size: 15px;
+    }
+
+    .ViewBtn {
+        font-size: 16px;
+    }
+
+    .casebtn,
+    .casebtn2,
+    .casebtn3,
+    .casebtn4 {
+        padding: 9px 11px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width : 1000px) and (max-width : 1099px) {
+    .maindashboard {
+        margin-top: 5px !important;
+    }
+
+    .colwidth {
+        flex: 0 0 auto;
+        width: 50%;
+        margin-top: 20px !important;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    .box {
+        width: 90%;
+        height: 280px;
+        margin: 0px 6px;
+        padding: 15px;
+    }
+
+    .bottomBox {
+        width: 90%;
+        height: 520px;
+        margin: 0px 4px;
+        padding: 15px;
+    }
+
+    .bottomBox .header {
+        width: 100%;
+        height: 73px;
+    }
+
+    .bottomBox .header h3 {
+        font-size: 20px;
+    }
+
+    .calendar li {
+        padding: 30px 35px;
+    }
+
+    .box2 {
+        width: 90%;
+        height: 310px;
+        margin: 0px 15px;
+    }
+
+    .bottomBox2 {
+        width: 90%;
+        height: 550px;
+        margin: 0px 15px;
+    }
+
+    .bottomBox2 .header {
+        width: 100%;
+        height: 73px;
+    }
+
+    .box h3 {
+        font-size: 32px;
+    }
+
+    .dashboardicon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .box h4 {
+        font-size: 22px;
+    }
+
+    .box p {
+        font-size: 15px;
+    }
+
+    .ViewBtn {
+        font-size: 16px;
+    }
+
+    .casebtn,
+    .casebtn2,
+    .casebtn3,
+    .casebtn4 {
+        padding: 6px 8px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width : 900px) and (max-width : 999px) {
+    .maindashboard {
+        margin-top: 5px !important;
+    }
+
+    .colwidth {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-top: 20px !important;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    .box {
+        width: 96%;
+        height: 300px;
+        margin: 0px 6px;
+        padding: 15px;
+    }
+
+    .bottomBox {
+        width: 96%;
+        height: 520px;
+        margin: 0px 4px;
+        padding: 15px;
+    }
+
+    .bottomBox .header {
+        width: 96%;
+        height: 73px;
+    }
+
+    .bottomBox .header h3 {
+        font-size: 25px;
+    }
+
+    .calendar li {
+        padding: 30px 35px;
+    }
+
+    .box2 {
+        width: 96%;
+        height: 310px;
+        margin: 0px 15px;
+    }
+
+    .bottomBox2 {
+        width: 96%;
+        height: 550px;
+        margin: 0px 15px;
+    }
+
+    .bottomBox2 .header {
+        width: 100%;
+        height: 73px;
+    }
+
+    .box h3 {
+        font-size: 35px;
+    }
+
+    .dashboardicon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .box h4 {
+        font-size: 23px;
+    }
+
+    .box p {
+        font-size: 18px;
+    }
+
+    .box2 h4 {
+        font-size: 23px;
+    }
+
+    .box2 p {
+        font-size: 18px;
+    }
+
+    .ViewBtn {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width : 800px) and (max-width : 899px) {
+    .maindashboard {
+        margin-top: 5px !important;
+    }
+
+    .colwidth {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-top: 20px !important;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    .box {
+        width: 96%;
+        height: 300px;
+        margin: 0px 6px;
+        padding: 15px;
+    }
+
+    .bottomBox {
+        width: 96%;
+        height: 520px;
+        margin: 0px 4px;
+        padding: 15px;
+    }
+
+    .bottomBox .header {
+        width: 100%;
+        height: 73px;
+    }
+
+    .bottomBox .header h3 {
+        font-size: 25px;
+    }
+
+    .calendar li {
+        padding: 30px 35px;
+    }
+
+    .box2 {
+        width: 96%;
+        height: 310px;
+        margin: 0px 15px;
+    }
+
+    .bottomBox2 {
+        width: 96%;
+        height: 550px;
+        margin: 0px 15px;
+    }
+
+    .bottomBox2 .header {
+        width: 100%;
+        height: 73px;
+    }
+
+    .box h3 {
+        font-size: 35px;
+    }
+
+    .dashboardicon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .box h4 {
+        font-size: 23px;
+    }
+
+    .box p {
+        font-size: 18px;
+    }
+
+    .box2 h4 {
+        font-size: 23px;
+    }
+
+    .box2 p {
+        font-size: 18px;
+    }
+
+    .ViewBtn {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,1224 @@
+.workStatus {
+  padding: 0 30px;
+}
+.head {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.statusHead h5 {
+  font-family: DM Sans;
+  font-size: 25px;
+  font-weight: 400;
+}
+.statusDetails p {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.no,
+.no2,
+.caseNo,
+.caseNo2,
+.name,
+.name2,
+.type,
+.type2,
+.court,
+.court2,
+.judgment,
+.judgment2,
+.expire,
+.expire2 {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border: 1px solid #d4d4d4;
+  display: inline-block;
+  padding: 11px 0;
+  text-align: center;
+}
+.detailsno,
+.detailsno2,
+.detailscaseNo,
+.detailscaseNo2,
+.detailsname,
+.detailsname2,
+.detailstype,
+.detailstype2,
+.detailscourt,
+.detailscourt2,
+.detailsjudgment,
+.detailsjudgment2,
+.detailsexpire,
+.detailsexpire2 {
+  border: 1px solid #d4d4d4;
+  display: inline-block;
+  padding: 11px 0;
+  text-align: center;
+}
+.no,
+.detailsno {
+  width: 100px;
+}
+.caseNo,
+.detailscaseNo {
+  width: 150px;
+}
+.name,
+.detailsname {
+  width: 400px;
+}
+.type,
+.detailstype {
+  width: 205px;
+}
+.court,
+.detailscourt {
+  width: 200px;
+}
+.judgment,
+.detailsjudgment {
+  width: 250px;
+}
+.expire,
+.detailsexpire {
+  width: 220px;
+}
+.no2,
+.detailsno2 {
+  width: 150px;
+}
+.caseNo2,
+.detailscaseNo2 {
+  width: 200px;
+}
+.name2,
+.detailsname2 {
+  width: 480px;
+}
+.type2,
+.detailstype2 {
+  width: 200px;
+}
+.court2,
+.detailscourt2 {
+  width: 200px;
+}
+.judgment2,
+.detailsjudgment2 {
+  width: 250px;
+}
+.expire2,
+.detailsexpire2 {
+  width: 203px;
+}
+
+@media (min-width: 2450px) and (max-width: 2560px) {
+  .no,
+  .detailsno {
+    width: 180px;
+  }
+  .caseNo,
+  .detailscaseNo {
+    width: 180px;
+  }
+  .name,
+  .detailsname {
+    width: 600px;
+  }
+  .type,
+  .detailstype {
+    width: 240px;
+  }
+  .court,
+  .detailscourt {
+    width: 240px;
+  }
+  .judgment,
+  .detailsjudgment {
+    width: 290px;
+  }
+  .expire,
+  .detailsexpire {
+    width: 250px;
+  }
+  .no2,
+  .detailsno2 {
+    width: 200px;
+  }
+  .caseNo2,
+  .detailscaseNo2 {
+    width: 200px;
+  }
+  .name2,
+  .detailsname2 {
+    width: 600px;
+  }
+  .type2,
+  .detailstype2 {
+    width: 300px;
+  }
+  .court2,
+  .detailscourt2 {
+    width: 290px;
+  }
+  .judgment2,
+  .detailsjudgment2 {
+    width: 300px;
+  }
+  .expire2,
+  .detailsexpire2 {
+    width: 290px;
+  }
+}
+@media (min-width: 2390px) and (max-width: 2449px) {
+  .no,
+  .detailsno {
+    width: 185px;
+  }
+  .caseNo,
+  .detailscaseNo {
+    width: 185px;
+  }
+  .name,
+  .detailsname {
+    width: 560px;
+  }
+  .type,
+  .detailstype {
+    width: 250px;
+  }
+  .court,
+  .detailscourt {
+    width: 250px;
+  }
+  .judgment,
+  .detailsjudgment {
+    width: 250px;
+  }
+  .expire,
+  .detailsexpire {
+    width: 250px;
+  }
+  .no2,
+  .detailsno2 {
+    width: 190px;
+  }
+  .caseNo2,
+  .detailscaseNo2 {
+    width: 190px;
+  }
+  .name2,
+  .detailsname2 {
+    width: 600px;
+  }
+  .type2,
+  .detailstype2 {
+    width: 290px;
+  }
+  .court2,
+  .detailscourt2 {
+    width: 290px;
+  }
+  .judgment2,
+  .detailsjudgment2 {
+    width: 290px;
+  }
+  .expire2,
+  .detailsexpire2 {
+    width: 280px;
+  }
+}
+@media (min-width: 2292px) and (max-width: 2389px) {
+  .no,
+  .detailsno {
+    width: 190px;
+  }
+  .caseNo,
+  .detailscaseNo {
+    width: 190px;
+  }
+  .name,
+  .detailsname {
+    width: 560px;
+  }
+  .type,
+  .detailstype {
+    width: 250px;
+  }
+  .court,
+  .detailscourt {
+    width: 250px;
+  }
+  .judgment,
+  .detailsjudgment {
+    width: 205px;
+  }
+  .expire,
+  .detailsexpire {
+    width: 205px;
+  }
+  .no2,
+  .detailsno2 {
+    width: 200px;
+  }
+  .caseNo2,
+  .detailscaseNo2 {
+    width: 200px;
+  }
+  .name2,
+  .detailsname2 {
+    width: 600px;
+  }
+  .type2,
+  .detailstype2 {
+    width: 260px;
+  }
+  .court2,
+  .detailscourt2 {
+    width: 260px;
+  }
+  .judgment2,
+  .detailsjudgment2 {
+    width: 260px;
+  }
+  .expire2,
+  .detailsexpire2 {
+    width: 260px;
+  }
+}
+@media (min-width: 2200px) and (max-width: 2291px) {
+  .no,
+  .detailsno {
+    width: 180px;
+  }
+  .caseNo,
+  .detailscaseNo {
+    width: 180px;
+  }
+  .name,
+  .detailsname {
+    width: 560px;
+  }
+  .type,
+  .detailstype {
+    width: 225px;
+  }
+  .court,
+  .detailscourt {
+    width: 200px;
+  }
+  .judgment,
+  .detailsjudgment {
+    width: 225px;
+  }
+  .expire,
+  .detailsexpire {
+    width: 200px;
+  }
+  .no2,
+  .detailsno2 {
+    width: 180px;
+  }
+  .caseNo2,
+  .detailscaseNo2 {
+    width: 180px;
+  }
+  .name2,
+  .detailsname2 {
+    width: 560px;
+  }
+  .type2,
+  .detailstype2 {
+    width: 270px;
+  }
+  .court2,
+  .detailscourt2 {
+    width: 250px;
+  }
+  .judgment2,
+  .detailsjudgment2 {
+    width: 260px;
+  }
+  .expire2,
+  .detailsexpire2 {
+    width: 250px;
+  }
+}
+@media (min-width: 2100px) and (max-width: 2199px) {
+  .no,
+  .detailsno {
+    width: 150px;
+  }
+  .caseNo,
+  .detailscaseNo {
+    width: 150px;
+  }
+  .name,
+  .detailsname {
+    width: 550px;
+  }
+  .type,
+  .detailstype {
+    width: 240px;
+  }
+  .court,
+  .detailscourt {
+    width: 200px;
+  }
+  .judgment,
+  .detailsjudgment {
+    width: 200px;
+  }
+  .expire,
+  .detailsexpire {
+    width: 200px;
+  }
+  .no2,
+  .detailsno2 {
+    width: 205px;
+  }
+  .caseNo2,
+  .detailscaseNo2 {
+    width: 180px;
+  }
+  .name2,
+  .detailsname2 {
+    width: 560px;
+  }
+  .type2,
+  .detailstype2 {
+    width: 230px;
+  }
+  .court2,
+  .detailscourt2 {
+    width: 225px;
+  }
+  .judgment2,
+  .detailsjudgment2 {
+    width: 240px;
+  }
+  .expire2,
+  .detailsexpire2 {
+    width: 225px;
+  }
+}
+@media (min-width: 2000px) and (max-width: 2099px) {
+  .no,
+  .detailsno {
+    width: 150px;
+  }
+  .caseNo,
+  .detailscaseNo {
+    width: 150px;
+  }
+  .name,
+  .detailsname {
+    width: 500px;
+  }
+  .type,
+  .detailstype {
+    width: 180px;
+  }
+  .court,
+  .detailscourt {
+    width: 180px;
+  }
+  .judgment,
+  .detailsjudgment {
+    width: 230px;
+  }
+  .expire,
+  .detailsexpire {
+    width: 180px;
+  }
+  .no2,
+  .detailsno2 {
+    width: 190px;
+  }
+  .caseNo2,
+  .detailscaseNo2 {
+    width: 190px;
+  }
+  .name2,
+  .detailsname2 {
+    width: 560px;
+  }
+  .type2,
+  .detailstype2 {
+    width: 200px;
+  }
+  .court2,
+  .detailscourt2 {
+    width: 200px;
+  }
+  .judgment2,
+  .detailsjudgment2 {
+    width: 230px;
+  }
+  .expire2,
+  .detailsexpire2 {
+    width: 200px;
+  }
+}
+@media (min-width: 1900px) and (max-width: 1999px) {
+  .no,
+  .detailsno {
+    width: 140px;
+  }
+  .caseNo,
+  .detailscaseNo {
+    width: 140px;
+  }
+  .name,
+  .detailsname {
+    width: 500px;
+  }
+  .type,
+  .detailstype {
+    width: 165px;
+  }
+  .court,
+  .detailscourt {
+    width: 180px;
+  }
+  .judgment,
+  .detailsjudgment {
+    width: 205px;
+  }
+  .expire,
+  .detailsexpire {
+    width: 190px;
+  }
+  .no2,
+  .detailsno2 {
+    width: 150px;
+  }
+  .caseNo2,
+  .detailscaseNo2 {
+    width: 150px;
+  }
+  .name2,
+  .detailsname2 {
+    width: 500px;
+  }
+  .type2,
+  .detailstype2 {
+    width: 230px;
+  }
+  .court2,
+  .detailscourt2 {
+    width: 200px;
+  }
+  .judgment2,
+  .detailsjudgment2 {
+    width: 250px;
+  }
+  .expire2,
+  .detailsexpire2 {
+    width: 200px;
+  }
+}
+@media (min-width: 1800px) and (max-width: 1899px) {
+  .statusHead h5 {
+    font-size: 20px;
+  }
+  .statusDetails p {
+    font-size: 18px;
+  }
+  .no,
+  .detailsno {
+    width: 140px;
+  }
+  .caseNo,
+  .detailscaseNo {
+    width: 140px;
+  }
+  .name,
+  .detailsname {
+    width: 470px;
+  }
+  .type,
+  .detailstype {
+    width: 150px;
+  }
+  .court,
+  .detailscourt {
+    width: 150px;
+  }
+  .judgment,
+  .detailsjudgment {
+    width: 205px;
+  }
+  .expire,
+  .detailsexpire {
+    width: 180px;
+  }
+  .no2,
+  .detailsno2 {
+    width: 140px;
+  }
+  .caseNo2,
+  .detailscaseNo2 {
+    width: 140px;
+  }
+  .name2,
+  .detailsname2 {
+    width: 500px;
+  }
+  .type2,
+  .detailstype2 {
+    width: 200px;
+  }
+  .court2,
+  .detailscourt2 {
+    width: 190px;
+  }
+  .judgment2,
+  .detailsjudgment2 {
+    width: 230px;
+  }
+  .expire2,
+  .detailsexpire2 {
+    width: 190px;
+  }
+}
+@media (min-width: 1700px) and (max-width: 1799px) {
+  .statusHead h5 {
+    font-size: 20px;
+  }
+  .statusDetails p {
+    font-size: 18px;
+  }
+  .no,
+  .detailsno {
+    width: 120px;
+  }
+  .caseNo,
+  .detailscaseNo {
+    width: 120px;
+  }
+  .name,
+  .detailsname {
+    width: 490px;
+  }
+  .type,
+  .detailstype {
+    width: 120px;
+  }
+  .court,
+  .detailscourt {
+    width: 130px;
+  }
+  .judgment,
+  .detailsjudgment {
+    width: 190px;
+  }
+  .expire,
+  .detailsexpire {
+    width: 180px;
+  }
+  .no2,
+  .detailsno2 {
+    width: 120px;
+  }
+  .caseNo2,
+  .detailscaseNo2 {
+    width: 125px;
+  }
+  .name2,
+  .detailsname2 {
+    width: 500px;
+  }
+  .type2,
+  .detailstype2 {
+    width: 180px;
+  }
+  .court2,
+  .detailscourt2 {
+    width: 175px;
+  }
+  .judgment2,
+  .detailsjudgment2 {
+    width: 220px;
+  }
+  .expire2,
+  .detailsexpire2 {
+    width: 175px;
+  }
+}
+@media (min-width: 1600px) and (max-width: 1699px) {
+  .statusHead h5 {
+    font-size: 20px;
+  }
+  .statusDetails p {
+    font-size: 18px;
+  }
+  .no,
+  .detailsno {
+    width: 120px;
+  }
+  .caseNo,
+  .detailscaseNo {
+    width: 115px;
+  }
+  .name,
+  .detailsname {
+    width: 400px;
+  }
+  .type,
+  .detailstype {
+    width: 130px;
+  }
+  .court,
+  .detailscourt {
+    width: 145px;
+  }
+  .judgment,
+  .detailsjudgment {
+    width: 180px;
+  }
+  .expire,
+  .detailsexpire {
+    width: 180px;
+  }
+  .no2,
+  .detailsno2 {
+    width: 120px;
+  }
+  .caseNo2,
+  .detailscaseNo2 {
+    width: 120px;
+  }
+  .name2,
+  .detailsname2 {
+    width: 425px;
+  }
+  .type2,
+  .detailstype2 {
+    width: 180px;
+  }
+  .court2,
+  .detailscourt2 {
+    width: 180px;
+  }
+  .judgment2,
+  .detailsjudgment2 {
+    width: 200px;
+  }
+  .expire2,
+  .detailsexpire2 {
+    width: 180px;
+  }
+}
+@media (min-width: 1500px) and (max-width: 1599px) {
+  .statusHead h5 {
+    font-size: 20px;
+  }
+  .statusDetails p {
+    font-size: 18px;
+  }
+  .no,
+  .detailsno {
+    width: 90px;
+  }
+  .caseNo,
+  .detailscaseNo {
+    width: 100px;
+  }
+  .name,
+  .detailsname {
+    width: 360px;
+  }
+  .type,
+  .detailstype {
+    width: 120px;
+  }
+  .court,
+  .detailscourt {
+    width: 150px;
+  }
+  .judgment,
+  .detailsjudgment {
+    width: 200px;
+  }
+  .expire,
+  .detailsexpire {
+    width: 170px;
+  }
+  .no2,
+  .detailsno2 {
+    width: 100px;
+  }
+  .caseNo2,
+  .detailscaseNo2 {
+    width: 100px;
+  }
+  .name2,
+  .detailsname2 {
+    width: 400px;
+  }
+  .type2,
+  .detailstype2 {
+    width: 170px;
+  }
+  .court2,
+  .detailscourt2 {
+    width: 170px;
+  }
+  .judgment2,
+  .detailsjudgment2 {
+    width: 200px;
+  }
+  .expire2,
+  .detailsexpire2 {
+    width: 170px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1499px) {
+  .statusHead h5 {
+    font-size: 20px;
+  }
+  .statusDetails p {
+    font-size: 18px;
+  }
+  .no,
+  .detailsno {
+    width: 55px;
+  }
+  .caseNo,
+  .detailscaseNo {
+    width: 95px;
+  }
+  .name,
+  .detailsname {
+    width: 365px;
+  }
+  .type,
+  .detailstype {
+    width: 115px;
+  }
+  .court,
+  .detailscourt {
+    width: 135px;
+  }
+  .judgment,
+  .detailsjudgment {
+    width: 175px;
+  }
+  .expire,
+  .detailsexpire {
+    width: 160px;
+  }
+  .no2,
+  .detailsno2 {
+    width: 90px;
+  }
+  .caseNo2,
+  .detailscaseNo2 {
+    width: 90px;
+  }
+  .name2,
+  .detailsname2 {
+    width: 358px;
+  }
+  .type2,
+  .detailstype2 {
+    width: 150px;
+  }
+  .court2,
+  .detailscourt2 {
+    width: 160px;
+  }
+  .judgment2,
+  .detailsjudgment2 {
+    width: 185px;
+  }
+  .expire2,
+  .detailsexpire2 {
+    width: 190px;
+  }
+}
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .statusHead h5 {
+    font-size: 20px;
+  }
+  .statusDetails p {
+    font-size: 18px;
+  }
+  .no,
+  .detailsno {
+    width: 70px;
+  }
+  .caseNo,
+  .detailscaseNo {
+    width: 90px;
+  }
+  .name,
+  .detailsname {
+    width: 300px;
+  }
+  .type,
+  .detailstype {
+    width: 120px;
+  }
+  .court,
+  .detailscourt {
+    width: 130px;
+  }
+  .judgment,
+  .detailsjudgment {
+    width: 170px;
+  }
+  .expire,
+  .detailsexpire {
+    width: 140px;
+  }
+  .no2,
+  .detailsno2 {
+    width: 80px;
+  }
+  .caseNo2,
+  .detailscaseNo2 {
+    width: 100px;
+  }
+  .name2,
+  .detailsname2 {
+    width: 340px;
+  }
+  .type2,
+  .detailstype2 {
+    width: 120px;
+  }
+  .court2,
+  .detailscourt2 {
+    width: 150px;
+  }
+  .judgment2,
+  .detailsjudgment2 {
+    width: 180px;
+  }
+  .expire2,
+  .detailsexpire2 {
+    width: 160px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .statusHead h5 {
+    font-size: 19px;
+  }
+  .statusDetails p {
+    font-size: 17px;
+  }
+  .no,
+  .detailsno {
+    width: 60px;
+  }
+  .caseNo,
+  .detailscaseNo {
+    width: 90px;
+  }
+  .name,
+  .detailsname {
+    width: 270px;
+  }
+  .type,
+  .detailstype {
+    width: 115px;
+  }
+  .court,
+  .detailscourt {
+    width: 120px;
+  }
+  .judgment,
+  .detailsjudgment {
+    width: 165px;
+  }
+  .expire,
+  .detailsexpire {
+    width: 120px;
+  }
+  .no2,
+  .detailsno2 {
+    width: 50px;
+  }
+  .caseNo2,
+  .detailscaseNo2 {
+    width: 95px;
+  }
+  .name2,
+  .detailsname2 {
+    width: 300px;
+  }
+  .type2,
+  .detailstype2 {
+    width: 120px;
+  }
+  .court2,
+  .detailscourt2 {
+    width: 135px;
+  }
+  .judgment2,
+  .detailsjudgment2 {
+    width: 190px;
+  }
+  .expire2,
+  .detailsexpire2 {
+    width: 150px;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1199px) {
+  .statusHead h5 {
+    font-size: 18px;
+  }
+  .statusDetails p {
+    font-size: 15px;
+  }
+  .no,
+  .detailsno {
+    width: 50px;
+  }
+  .caseNo,
+  .detailscaseNo {
+    width: 90px;
+  }
+  .name,
+  .detailsname {
+    width: 186px;
+  }
+  .type,
+  .detailstype {
+    width: 110px;
+  }
+  .court,
+  .detailscourt {
+    width: 120px;
+  }
+  .judgment,
+  .detailsjudgment {
+    width: 160px;
+  }
+  .expire,
+  .detailsexpire {
+    width: 140px;
+  }
+  .no2,
+  .detailsno2 {
+    width: 90px;
+  }
+  .caseNo2,
+  .detailscaseNo2 {
+    width: 90px;
+  }
+  .name2,
+  .detailsname2 {
+    width: 270px;
+  }
+  .type2,
+  .detailstype2 {
+    width: 100px;
+  }
+  .court2,
+  .detailscourt2 {
+    width: 100px;
+  }
+  .judgment2,
+  .detailsjudgment2 {
+    width: 170px;
+  }
+  .expire2,
+  .detailsexpire2 {
+    width: 120px;
+  }
+}
+@media (min-width: 991px) and (max-width: 1099px) {
+  .statusHead h5 {
+    font-size: 15px;
+  }
+  .statusDetails p {
+    font-size: 12px;
+  }
+  .no,
+  .detailsno {
+    width: 35px;
+  }
+  .caseNo,
+  .detailscaseNo {
+    width: 80px;
+  }
+  .name,
+  .detailsname {
+    width: 200px;
+  }
+  .type,
+  .detailstype {
+    width: 95px;
+  }
+  .court,
+  .detailscourt {
+    width: 110px;
+  }
+  .judgment,
+  .detailsjudgment {
+    width: 140px;
+  }
+  .expire,
+  .detailsexpire {
+    width: 105px;
+  }
+  .no2,
+  .detailsno2 {
+    width: 50px;
+  }
+  .caseNo2,
+  .detailscaseNo2 {
+    width: 90px;
+  }
+  .name2,
+  .detailsname2 {
+    width: 238px;
+  }
+  .type2,
+  .detailstype2 {
+    width: 100px;
+  }
+  .court2,
+  .detailscourt2 {
+    width: 110px;
+  }
+  .judgment2,
+  .detailsjudgment2 {
+    width: 160px;
+  }
+  .expire2,
+  .detailsexpire2 {
+    width: 100px;
+  }
+}
+@media (min-width: 930px) and (max-width: 990px) {
+  .statusHead h5 {
+    font-size: 15px;
+  }
+  .statusDetails p {
+    font-size: 13px;
+  }
+  .no,
+  .detailsno {
+    width: 50px;
+  }
+  .caseNo,
+  .detailscaseNo {
+    width: 75px;
+  }
+  .name,
+  .detailsname {
+    width: 190px;
+  }
+  .type,
+  .detailstype {
+    width: 95px;
+  }
+  .court,
+  .detailscourt {
+    width: 95px;
+  }
+  .judgment,
+  .detailsjudgment {
+    width: 115px;
+  }
+  .expire,
+  .detailsexpire {
+    width: 95px;
+  }
+  .no2,
+  .detailsno2 {
+    width: 50px;
+  }
+  .caseNo2,
+  .detailscaseNo2 {
+    width: 75px;
+  }
+  .name2,
+  .detailsname2 {
+    width: 230px;
+  }
+  .type2,
+  .detailstype2 {
+    width: 100px;
+  }
+  .court2,
+  .detailscourt2 {
+    width: 100px;
+  }
+  .judgment2,
+  .detailsjudgment2 {
+    width: 120px;
+  }
+  .expire2,
+  .detailsexpire2 {
+    width: 100px;
+  }
+}
+@media (min-width: 850px) and (max-width: 929px) {
+  .statusHead h5 {
+    font-size: 12px;
+  }
+  .statusDetails p {
+    font-size: 11px;
+  }
+  .no,
+  .detailsno {
+    width: 50px;
+  }
+  .caseNo,
+  .detailscaseNo {
+    width: 60px;
+  }
+  .name,
+  .detailsname {
+    width: 180px;
+  }
+  .type,
+  .detailstype {
+    width: 75px;
+  }
+  .court,
+  .detailscourt {
+    width: 95px;
+  }
+  .judgment,
+  .detailsjudgment {
+    width: 100px;
+  }
+  .expire,
+  .detailsexpire {
+    width: 85px;
+  }
+  .no2,
+  .detailsno2 {
+    width: 50px;
+  }
+  .caseNo2,
+  .detailscaseNo2 {
+    width: 65px;
+  }
+  .name2,
+  .detailsname2 {
+    width: 209px;
+  }
+  .type2,
+  .detailstype2 {
+    width: 90px;
+  }
+  .court2,
+  .detailscourt2 {
+    width: 90px;
+  }
+  .judgment2,
+  .detailsjudgment2 {
+    width: 120px;
+  }
+  .expire2,
+  .detailsexpire2 {
+    width: 95px;
+  }
+}

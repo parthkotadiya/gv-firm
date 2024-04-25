@@ -1,0 +1,750 @@
+.mainCase {
+  padding: 0 30px;
+}
+.mainCase button {
+  border-radius: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  color: #5c5c5c;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px 40px;
+}
+.mainCase h5 {
+  font-family: DM Sans;
+  font-size: 20px;
+}
+
+.myCaseDiaryData{
+    padding-top: 50px;
+}
+.caseData h4 {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.caseData p {
+  margin-bottom: 0;
+}
+.caseHeading,
+.caseDetails {
+  display: flex;
+  align-items: center;
+}
+
+hr {
+  margin: 0;
+}
+.no,
+.no2,
+.court,
+.court2,
+.case,
+.case2,
+.clientName,
+.clientName2,
+.advocate,
+.advocate2,
+.hearingDate,
+.hearingDate2,
+.lastHearingDate,
+.lastHearingDate2,
+.caseDetailscourt,
+.caseDetailscourt2,
+.caseDetailsno,
+.caseDetailsno2,
+.caseDetailscase,
+.caseDetailscase2,
+.caseDetailsclientName,
+.caseDetailsclientName2,
+.caseDetailsadvocate,
+.caseDetailsadvocate2,
+.caseDetailshearingDate,
+.caseDetailshearingDate2,
+.caseDetailslastHearingDate,
+.caseDetailslastHearingDate2 {
+  border-radius: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.14);
+  background: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+.no,
+.no2,
+.court,
+.court2,
+.case,
+.case2,
+.clientName,
+.clientName2,
+.advocate,
+.advocate2,
+.hearingDate,
+.hearingDate2,
+.lastHearingDate,
+.lastHearingDate2 {
+  background-color: bisque;
+}
+.caseDiaryLogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.no,
+.caseDetailsno {
+  width: 77px;
+  margin-left: 0;
+}
+.court,
+.caseDetailscourt {
+  width: 303px;
+}
+.case,
+.caseDetailscase {
+  width: 191px;
+}
+.clientName,
+.caseDetailsclientName {
+  width: 284px;
+}
+.advocate,
+.caseDetailsadvocate {
+  width: 284px;
+}
+.hearingDate,
+.caseDetailshearingDate {
+  width: 190px;
+}
+.lastHearingDate,
+.caseDetailslastHearingDate {
+  width: 190px;
+}
+.no2,
+.caseDetailsno2 {
+  width: 80px;
+  margin-left: 0;
+}
+.court2,
+.caseDetailscourt2 {
+  width: 310px;
+}
+.case2,
+.caseDetailscase2 {
+  width: 310px;
+}
+.clientName2,
+.caseDetailsclientName2 {
+  width: 300px;
+}
+.advocate2,
+.caseDetailsadvocate2 {
+  width: 200px;
+}
+.hearingDate2,
+.caseDetailshearingDate2 {
+  width: 200px;
+}
+.lastHearingDate2,
+.caseDetailslastHearingDate2 {
+  width: 200px;
+}
+@media (max-width: 2560px) {
+  .mainCase h3 {
+    font-size: 35px;
+  }
+  .mainCase h5 {
+    font-size: 30px;
+  }
+  .caseHeading,
+  .caseDetails {
+    justify-content: center;
+  }
+  .caseData h4 {
+    font-size: 22px;
+  }
+  .caseData p {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  .no,
+  .caseDetailsno {
+    width: 100px;
+  }
+  .court,
+  .caseDetailscourt {
+    width: 320px;
+  }
+  .case,
+  .caseDetailscase {
+    width: 320px;
+  }
+  .clientName,
+  .caseDetailsclientName {
+    width: 370px;
+  }
+  .advocate,
+  .caseDetailsadvocate {
+    width: 370px;
+  }
+  .hearingDate,
+  .caseDetailshearingDate {
+    width: 250px;
+  }
+  .lastHearingDate,
+  .caseDetailslastHearingDate {
+    width: 250px;
+  }
+  .no2,
+  .caseDetailsno2 {
+    width: 100px;
+    margin-left: 0;
+  }
+  .court2,
+  .caseDetailscourt2 {
+    width: 350px;
+  }
+  .case2,
+  .caseDetailscase2 {
+    width: 350px;
+  }
+  .clientName2,
+  .caseDetailsclientName2 {
+    width: 400px;
+  }
+  .advocate2,
+  .caseDetailsadvocate2 {
+    width: 400px;
+  }
+  .hearingDate2,
+  .caseDetailshearingDate2 {
+    width: 300px;
+  }
+  .lastHearingDate2,
+  .caseDetailslastHearingDate2 {
+    width: 300px;
+  }
+}
+@media (min-width: 1900px) and (max-width: 2559px) {
+  .caseData {
+    width: 100%;
+    background: none !important;
+    box-shadow: none;
+    padding: 50px 30px;
+  }
+  .date{
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .mainCase h3 {
+    font-size: 32px;
+  }
+  .mainCase h5 {
+    font-size: 30px;
+  }
+  .caseHeading,
+  .caseDetails {
+    justify-content: center;
+  }
+  .no,
+  .no2,
+  .court,
+  .court2,
+  .case,
+  .case2,
+  .clientName,
+  .clientName2,
+  .advocate,
+  .advocate2,
+  .hearingDate,
+  .hearingDate2,
+  .lastHearingDate,
+  .lastHearingDate2,
+  .caseDetailscourt,
+  .caseDetailscourt2,
+  .caseDetailsno,
+  .caseDetailsno2,
+  .caseDetailscase,
+  .caseDetailscase2,
+  .caseDetailsclientName,
+  .caseDetailsclientName2,
+  .caseDetailsadvocate,
+  .caseDetailsadvocate2,
+  .caseDetailshearingDate,
+  .caseDetailshearingDate2,
+  .caseDetailslastHearingDate,
+  .caseDetailslastHearingDate2 {
+    padding: 25px 10px;
+    font-size: 30px;
+  }
+  .caseData h4 {
+    font-size: 22px;
+  }
+  .caseData p {
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+  .no,
+  .caseDetailsno {
+    width: 100px;
+  }
+  .court,
+  .caseDetailscourt {
+    width: 320px;
+  }
+  .case,
+  .caseDetailscase {
+    width: 320px;
+  }
+  .clientName,
+  .caseDetailsclientName {
+    width: 370px;
+  }
+  .advocate,
+  .caseDetailsadvocate {
+    width: 370px;
+  }
+  .hearingDate,
+  .caseDetailshearingDate {
+    width: 250px;
+  }
+  .lastHearingDate,
+  .caseDetailslastHearingDate {
+    width: 250px;
+  }
+  .no2,
+  .caseDetailsno2 {
+    width: 100px;
+    margin-left: 0;
+  }
+  .court2,
+  .caseDetailscourt2 {
+    width: 350px;
+  }
+  .case2,
+  .caseDetailscase2 {
+    width: 350px;
+  }
+  .clientName2,
+  .caseDetailsclientName2 {
+    width: 400px;
+  }
+  .advocate2,
+  .caseDetailsadvocate2 {
+    width: 400px;
+  }
+  .hearingDate2,
+  .caseDetailshearingDate2 {
+    width: 300px;
+  }
+  .lastHearingDate2,
+  .caseDetailslastHearingDate2 {
+    width: 350px;
+  }
+}
+@media (min-width: 1350px) and (max-width: 1899px) {
+    .caseData {
+        width: 100%;
+        background: none !important;
+        box-shadow: none;
+        padding: 50px 30px;
+      }
+  .mainCase h3 {
+    font-size: 32px;
+  }
+  .mainCase h5 {
+    font-size: 30px;
+  }
+  .caseHeading,
+  .caseDetails {
+    justify-content: center;
+  }
+  .caseData h4 {
+    font-size: 17px;
+  }
+  .caseData p {
+    font-size: 17px;
+    margin-bottom: 0;
+  }
+  .no,
+  .caseDetailsno {
+    width: 90px;
+  }
+  .court,
+  .caseDetailscourt {
+    width: 320px;
+  }
+  .case,
+  .caseDetailscase {
+    width: 320px;
+  }
+  .clientName,
+  .caseDetailsclientName {
+    width: 370px;
+  }
+  .advocate,
+  .caseDetailsadvocate {
+    width: 370px;
+  }
+  .hearingDate,
+  .caseDetailshearingDate {
+    width: 250px;
+  }
+  .lastHearingDate,
+  .caseDetailslastHearingDate {
+    width: 280px;
+  }
+  .no2,
+  .caseDetailsno2 {
+    width: 100px;
+    margin-left: 0;
+  }
+  .court2,
+  .caseDetailscourt2 {
+    width: 350px;
+  }
+  .case2,
+  .caseDetailscase2 {
+    width: 350px;
+  }
+  .clientName2,
+  .caseDetailsclientName2 {
+    width: 400px;
+  }
+  .advocate2,
+  .caseDetailsadvocate2 {
+    width: 400px;
+  }
+  .hearingDate2,
+  .caseDetailshearingDate2 {
+    width: 300px;
+  }
+  .lastHearingDate2,
+  .caseDetailslastHearingDate2 {
+    width: 300px;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1349px) {
+    .caseData {
+        width: 100%;
+        background: none !important;
+        box-shadow: none;
+        padding: 50px 30px 10px;
+      }
+  .mainCase h3 {
+    font-size: 32px;
+  }
+  .mainCase h5 {
+    font-size: 30px;
+  }
+  .caseHeading,
+  .caseDetails {
+    justify-content: center;
+  }
+  .caseData h4 {
+    font-size: 15px;
+  }
+  .caseData p {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .no,
+  .caseDetailsno {
+    width: 90px;
+  }
+  .court,
+  .caseDetailscourt {
+    width: 320px;
+  }
+  .case,
+  .caseDetailscase {
+    width: 320px;
+  }
+  .clientName,
+  .caseDetailsclientName {
+    width: 370px;
+  }
+  .advocate,
+  .caseDetailsadvocate {
+    width: 370px;
+  }
+  .hearingDate,
+  .caseDetailshearingDate {
+    width: 250px;
+  }
+  .lastHearingDate,
+  .caseDetailslastHearingDate {
+    width: 300px;
+  }
+  .no2,
+  .caseDetailsno2 {
+    width: 100px;
+    margin-left: 0;
+  }
+  .court2,
+  .caseDetailscourt2 {
+    width: 350px;
+  }
+  .case2,
+  .caseDetailscase2 {
+    width: 350px;
+  }
+  .clientName2,
+  .caseDetailsclientName2 {
+    width: 400px;
+  }
+  .advocate2,
+  .caseDetailsadvocate2 {
+    width: 400px;
+  }
+  .hearingDate2,
+  .caseDetailshearingDate2 {
+    width: 300px;
+  }
+  .lastHearingDate2,
+  .caseDetailslastHearingDate2 {
+    width: 300px;
+  }
+}
+@media (min-width: 960px) and (max-width: 1099px) {
+    .caseData {
+        width: 100%;
+        background: none !important;
+        box-shadow: none;
+        padding: 50px 30px 10px;
+      }
+  .mainCase button {
+    font-size: 16px;
+    padding: 8px 30px;
+  }
+  .mainCase h3 {
+    font-size: 25px;
+  }
+  .mainCase h5 {
+    font-size: 25px;
+  }
+  .caseHeading,
+  .caseDetails {
+    justify-content: center;
+  }
+  .caseData h4 {
+    font-size: 12px;
+  }
+  .caseData p {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .no,
+  .caseDetailsno {
+    width: 90px;
+  }
+  .court,
+  .caseDetailscourt {
+    width: 320px;
+  }
+  .case,
+  .caseDetailscase {
+    width: 320px;
+  }
+  .clientName,
+  .caseDetailsclientName {
+    width: 360px;
+  }
+  .advocate,
+  .caseDetailsadvocate {
+    width: 360px;
+  }
+  .hearingDate,
+  .caseDetailshearingDate {
+    width: 250px;
+  }
+  .lastHearingDate,
+  .caseDetailslastHearingDate {
+    width: 350px;
+  }
+  .no2,
+  .caseDetailsno2 {
+    width: 100px;
+    margin-left: 0;
+  }
+  .court2,
+  .caseDetailscourt2 {
+    width: 350px;
+  }
+  .case2,
+  .caseDetailscase2 {
+    width: 350px;
+  }
+  .clientName2,
+  .caseDetailsclientName2 {
+    width: 400px;
+  }
+  .advocate2,
+  .caseDetailsadvocate2 {
+    width: 400px;
+  }
+  .hearingDate2,
+  .caseDetailshearingDate2 {
+    width: 300px;
+  }
+  .lastHearingDate2,
+  .caseDetailslastHearingDate2 {
+    width: 300px;
+  }
+}
+@media (min-width: 850px) and (max-width: 959px) {
+  .mainCase {
+    padding: 0 50px;
+  }
+  .myCaseDiaryData{
+    padding-top: 20px;
+    
+}
+.caseData{
+  margin: 0 30px 0 15px;
+}
+.logoImg img{
+  width: 80%;
+  float: right;
+}
+
+    .no,
+    .no2,
+    .court,
+    .court2,
+    .case,
+    .case2,
+    .clientName,
+    .clientName2,
+    .advocate,
+    .advocate2,
+    .hearingDate,
+    .hearingDate2,
+    .lastHearingDate,
+    .lastHearingDate2,
+    .caseDetailscourt,
+    .caseDetailscourt2,
+    .caseDetailsno,
+    .caseDetailsno2,
+    .caseDetailscase,
+    .caseDetailscase2,
+    .caseDetailsclientName,
+    .caseDetailsclientName2,
+    .caseDetailsadvocate,
+    .caseDetailsadvocate2,
+    .caseDetailshearingDate,
+    .caseDetailshearingDate2,
+    .caseDetailslastHearingDate,
+    .caseDetailslastHearingDate2 {
+        border-radius: 5px;
+    }
+    .no,
+.no2,
+.court,
+.court2,
+.case,
+.case2,
+.clientName,
+.clientName2,
+.advocate,
+.advocate2,
+.hearingDate,
+.hearingDate2,
+.lastHearingDate,
+.lastHearingDate2,
+.caseDetailscourt,
+.caseDetailscourt2,
+.caseDetailsno,
+.caseDetailsno2,
+.caseDetailscase,
+.caseDetailscase2,
+.caseDetailsclientName,
+.caseDetailsclientName2,
+.caseDetailsadvocate,
+.caseDetailsadvocate2,
+.caseDetailshearingDate,
+.caseDetailshearingDate2,
+.caseDetailslastHearingDate,
+.caseDetailslastHearingDate2 {
+  padding: 10px 0;
+}
+  .mainCase button {
+    font-size: 16px;
+    padding: 8px 30px;
+  }
+  .mainCase h3 {
+    font-size: 25px;
+  }
+  .mainCase h5 {
+    font-size: 25px;
+  }
+  .caseHeading,
+  .caseDetails {
+    justify-content: center;
+  }
+  .caseData h4 {
+    font-size: 10px;
+  }
+  .caseData p {
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+  .no,
+  .caseDetailsno {
+    width: 70px;
+  }
+  .court,
+  .caseDetailscourt {
+    width: 285px;
+  }
+  .case,
+  .caseDetailscase {
+    width: 285px;
+  }
+  .clientName,
+  .caseDetailsclientName {
+    width: 330px;
+  }
+  .advocate,
+  .caseDetailsadvocate {
+    width: 330px;
+  }
+  .hearingDate,
+  .caseDetailshearingDate {
+    width: 285px;
+  }
+  .lastHearingDate,
+  .caseDetailslastHearingDate {
+    width: 350px;
+  }
+  .no2,
+  .caseDetailsno2 {
+    width: 90px;
+    margin-left: 0;
+  }
+  .court2,
+  .caseDetailscourt2 {
+    width: 340px;
+  }
+  .case2,
+  .caseDetailscase2 {
+    width: 340px;
+  }
+  .clientName2,
+  .caseDetailsclientName2 {
+    width: 390px;
+  }
+  .advocate2,
+  .caseDetailsadvocate2 {
+    width: 390px;
+  }
+  .hearingDate2,
+  .caseDetailshearingDate2 {
+    width: 290px;
+  }
+  .lastHearingDate2,
+  .caseDetailslastHearingDate2 {
+    width: 360px;
+  }
+}

@@ -1,0 +1,931 @@
+.mainClient {
+  padding: 0 30px;
+}
+.client {
+  border-radius: 10px;
+}
+.dataRow {
+  display: flex;
+}
+.clientData span {
+  cursor: pointer;
+}
+.inner,
+.clientData {
+  display: flex;
+  text-align: center;
+  padding: 0px 16px;
+}
+.clientData {
+  flex-wrap: wrap;
+}
+.inner h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.inner .no,
+.clientData .id {
+  width: 138px;
+  padding: 4px 50px;
+  background: #efefef;
+  border: 1px solid #d4d4d4;
+}
+.inner .no {
+  padding: 15px 14px;
+}
+.clientData .id {
+  padding: 14px 0;
+  border-top: none;
+  border-bottom: none;
+  margin: 0;
+  border: 1px solid #d4d4d4;
+}
+.inner .name,
+.clientData .name {
+  width: 230px;
+  height: 48px;
+  padding: 12px 0;
+  background: #efefef;
+  border: 1px solid #d4d4d4;
+  margin-bottom: 0px;
+}
+.inner .name,
+.inner .no {
+  font-size: 24px;
+  color: #212121;
+  font-family: DM Sans;
+  font-weight: 400;
+  height: auto;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 0px;
+  border-radius: 6px;
+}
+.dataRow {
+  border-radius: 20px;
+  border-bottom: 0;
+  border-top: 0;
+}
+.runcase p {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 2500px) and (max-width: 2560px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 20px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 24px;
+    width: 291px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 291px;
+    height: 60px;
+    font-size: 24px;
+  }
+  .clientData .id {
+    width: 291px;
+    font-size: 24px;
+  }
+
+  .mainClient {
+    padding: 0 0 0 0;
+  }
+}
+@media (min-width: 2450px) and (max-width: 2499px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 20px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 24px;
+    width: 286px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 286px;
+    height: 60px;
+    font-size: 24px;
+  }
+  .clientData .id {
+    width: 286px;
+    font-size: 24px;
+  }
+
+  .mainClient {
+    padding: 0 0 0 0;
+  }
+}
+@media (min-width: 2400px) and (max-width: 2449px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 20px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 24px;
+    width: 270px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 270px;
+    height: 60px;
+    font-size: 24px;
+  }
+  .clientData .id {
+    width: 270px;
+    font-size: 24px;
+  }
+
+  .mainClient {
+    padding: 0 0px 0px 45px;
+  }
+}
+@media (min-width: 2350px) and (max-width: 2399px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 18px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 22px;
+    width: 265px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 265px;
+    height: 57px;
+    font-size: 22px;
+  }
+  .clientData .id {
+    width: 265px;
+    font-size: 22px;
+  }
+
+  .mainClient {
+    padding: 0 0px 0px 42px;
+  }
+}
+@media (min-width: 2300px) and (max-width: 2349px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 15px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 22px;
+    width: 256px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 256px;
+    height: 57px;
+    font-size: 22px;
+  }
+  .clientData .id {
+    width: 256px;
+    font-size: 22px;
+  }
+
+  .mainClient {
+    padding: 0 0px 0px 45px;
+  }
+}
+@media (min-width: 2250px) and (max-width: 2299px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 20px;
+    width: 256px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 256px;
+    height: 58px;
+    font-size: 19px;
+  }
+  .clientData .id {
+    width: 256px;
+    font-size: 23px;
+  }
+
+  .mainClient {
+    padding: 0 0px 0px 30px;
+  }
+}
+@media (min-width: 2200px) and (max-width: 2249px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 20px;
+    width: 256px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 256px;
+    height: 59px;
+    font-size: 23px;
+  }
+  .clientData .id {
+    width: 256px;
+    font-size: 23px;
+  }
+
+  .mainClient {
+    padding: 0 0px 0px 18px;
+  }
+}
+@media (min-width: 2150px) and (max-width: 2199px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 24px;
+    width: 240px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 240px;
+    height: 59px;
+    font-size: 23px;
+  }
+  .clientData .id {
+    width: 240px;
+    font-size: 23px;
+  }
+
+  .mainClient {
+    padding: 0 0px 0px 35px;
+  }
+}
+@media (min-width: 2100px) and (max-width: 2149px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 24px;
+    width: 240px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 240px;
+    height: 59px;
+    font-size: 23px;
+  }
+  .clientData .id {
+    width: 240px;
+    font-size: 23px;
+  }
+
+  .mainClient {
+    padding: 0 0px 0px 27px;
+  }
+}
+@media (min-width: 1950px) and (max-width: 1999px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 24px;
+    width: 220px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 220px;
+    height: 57px;
+    font-size: 19px;
+  }
+  .clientData .id {
+    width: 220px;
+    font-size: 22px;
+  }
+
+  .mainClient {
+    padding: 0 0px 0px 27px;
+  }
+}
+@media (min-width: 1900px) and (max-width: 1949px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 24px;
+    width: 208px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 208px;
+    height: 60px;
+    font-size: 19px;
+  }
+  .clientData .id {
+    width: 208px;
+    font-size: 24px;
+  }
+
+  .mainClient {
+    padding: 0 0px 0px 50px;
+  }
+}
+@media (min-width: 1850px) and (max-width: 1899px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 20px;
+    width: 208px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 208px;
+    height: 57px;
+    font-size: 19px;
+  }
+  .clientData .id {
+    width: 208px;
+    font-size: 22px;
+  }
+
+  .mainClient {
+    padding: 0 0px 0px 32px;
+  }
+}
+@media (min-width: 1800px) and (max-width: 1849px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 20px;
+    width: 195px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 195px;
+    height: 57px;
+    font-size: 19px;
+  }
+  .clientData .id {
+    width: 195px;
+    font-size: 22px;
+  }
+  .mainClient {
+    padding: 0 0px 0px 58px;
+  }
+}
+@media (min-width: 1750px) and (max-width: 1799px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 20px;
+    width: 189px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 189px;
+    height: 57px;
+    font-size: 19px;
+  }
+  .clientData .id {
+    width: 189px;
+    font-size: 22px;
+  }
+  .mainClient {
+    padding: 0 0px 0px 43px;
+  }
+}
+@media (min-width: 1700px) and (max-width: 1749px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 20px;
+    width: 189px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 189px;
+    height: 57px;
+    font-size: 19px;
+  }
+  .clientData .id {
+    width: 189px;
+    font-size: 22px;
+  }
+  .mainClient {
+    padding: 0 0px 0px 43px;
+  }
+}
+@media (min-width: 1650px) and (max-width: 1699px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 17px;
+    width: 177px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 177px;
+    height: 54px;
+    font-size: 19px;
+  }
+  .clientData .id {
+    width: 177px;
+    font-size: 20px;
+  }
+  .mainClient {
+    padding: 0 0px 0px 47px;
+  }
+}
+@media (min-width: 1600px) and (max-width: 1649px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 17px;
+    width: 177px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 177px;
+    height: 54px;
+    font-size: 19px;
+  }
+  .clientData .id {
+    width: 177px;
+    font-size: 20px;
+  }
+  .mainClient {
+    padding: 0 0px 0px 37px;
+  }
+}
+@media (min-width: 1550px) and (max-width: 1599px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 17px;
+    width: 165px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 165px;
+    height: 54px;
+    font-size: 19px;
+  }
+  .clientData .id {
+    width: 165px;
+    font-size: 20px;
+  }
+  .mainClient {
+    padding: 0 0px 0px 49px;
+  }
+}
+@media (min-width: 1500px) and (max-width: 1549px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 19px;
+    width: 159px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 159px;
+    height: 54px;
+    font-size: 19px;
+  }
+  .clientData .id {
+    width: 159px;
+    font-size: 20px;
+  }
+  .mainClient {
+    padding: 0 0px 0px 49px;
+  }
+}
+@media (min-width: 1450px) and (max-width: 1499px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 19px;
+    width: 147px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 147px;
+    height: 54px;
+    font-size: 19px;
+  }
+  .clientData .id {
+    width: 147px;
+    font-size: 20px;
+  }
+  .mainClient {
+    padding: 0 0px 0px 67px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1449px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 19px;
+    width: 156px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 156px;
+    height: 54px;
+    font-size: 19px;
+  }
+  .clientData .id {
+    width: 156px;
+    font-size: 20px;
+  }
+  .mainClient {
+    padding: 0 0px 0px 31px;
+  }
+}
+@media (min-width: 1350px) and (max-width: 1399px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 17px;
+    width: 138px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 138px;
+    height: 50px;
+    font-size: 17px;
+  }
+  .clientData .id {
+    width: 138px;
+    font-size: 17px;
+  }
+  .mainClient {
+    padding: 0 0px 0px 65px;
+  }
+}
+@media (min-width: 1300px) and (max-width: 1349px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 17px;
+    width: 138px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 138px;
+    height: 52px;
+    font-size: 17px;
+  }
+  .clientData .id {
+    width: 138px;
+    font-size: 17px;
+    padding: 11.9px 0;
+  }
+  .mainClient {
+    padding: 0 0px 0px 48px;
+  }
+}
+@media (min-width: 1250px) and (max-width: 1299px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 17px;
+    width: 138px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 138px;
+    height: 52px;
+    font-size: 17px;
+  }
+  .clientData .id {
+    width: 138px;
+    font-size: 17px;
+    padding: 11.9px 0;
+  }
+  .mainClient {
+    padding: 0 0px 0px 24px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1249px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 17px;
+    width: 131px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 131px;
+    height: 52px;
+    font-size: 17px;
+  }
+  .clientData .id {
+    width: 131px;
+    font-size: 17px;
+    padding: 11.9px 0;
+  }
+  .mainClient {
+    padding: 0 0px 0px 24px;
+  }
+}
+@media (min-width: 1150px) and (max-width: 1199px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 16px;
+    width: 119px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 119px;
+    height: 52px;
+    font-size: 16px;
+  }
+  .clientData .id {
+    width: 119px;
+    font-size: 17.5px;
+    padding: 11.9px 0;
+  }
+  .mainClient {
+    padding: 0 0px 0px 44px;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1149px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 15px;
+    width: 117px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 117px;
+    height: 52px;
+    font-size: 15px;
+  }
+  .clientData .id {
+    width: 117px;
+    font-size: 17.5px;
+    padding: 11.9px 0;
+  }
+  .mainClient {
+    padding: 0 0px 0px 36px;
+  }
+}
+@media (min-width: 1050px) and (max-width: 1099px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 15px;
+    width: 110px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 110px;
+    height: 52px;
+    font-size: 14px;
+  }
+  .clientData .id {
+    width: 110px;
+    font-size: 17.5px;
+    padding: 11.9px 0;
+  }
+  .mainClient {
+    padding: 0 0px 0px 36px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1049px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 14px;
+    width: 110px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 110px;
+    height: 53px;
+    font-size: 14px;
+  }
+  .clientData .id {
+    width: 110px;
+    font-size: 16.5px;
+    padding: 12.9px 0;
+  }
+  .mainClient {
+    padding: 0 0px 0px 19px;
+  }
+}
+@media (min-width: 950px) and (max-width: 999px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 13px;
+    width: 102px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 102px;
+    height: 53px;
+    font-size: 13px;
+  }
+  .clientData .id {
+    width: 102px;
+    font-size: 16.5px;
+    padding: 12.9px 0;
+  }
+  .mainClient {
+    padding: 0 0px 0px 19px;
+  }
+}
+@media (min-width: 900px) and (max-width: 949px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 13px;
+    width: 94px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 94px;
+    height: 53px;
+    font-size: 13px;
+  }
+  .clientData .id {
+    width: 94px;
+    font-size: 16.5px;
+    padding: 12.9px 0;
+  }
+  .mainClient {
+    padding: 0 0px 0px 35px;
+  }
+  .name svg {
+    width: 28px;
+  }
+}
+@media (min-width: 850px) and (max-width: 899px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 13px;
+    width: 88px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 88px;
+    height: 53px;
+    font-size: 13px;
+  }
+  .clientData .id {
+    width: 88px;
+    font-size: 16.5px;
+    padding: 12.9px 0;
+  }
+  .mainClient {
+    padding: 0 0px 0px 31px;
+  }
+  .name svg {
+    width: 26px;
+  }
+}
+@media (min-width: 800px) and (max-width: 849px) {
+  .inner h5,
+  .inner .no,
+  .inner .name {
+    font-size: 12px;
+  }
+  .inner .name,
+  .inner .no {
+    font-size: 13px;
+    width: 88px;
+  }
+  .inner .name,
+  .clientData .name {
+    width: 88px;
+    height: 52px;
+    font-size: 12px;
+  }
+  .clientData .id {
+    width: 88px;
+    font-size: 15.5px;
+    padding: 12.9px 0;
+  }
+  .mainClient {
+    padding: 0 0px 0px 11px;
+  }
+  .name svg {
+    width: 24px;
+  }
+}
